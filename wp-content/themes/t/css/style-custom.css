@@ -1,0 +1,30 @@
+.kode-logo{ margin-top: 37px; }
+.kode-logo{ margin-bottom: 41px; }
+body h1, body h2, body h3, body h4, body h5, body h6{ font-family: "Source Sans Pro"; }
+body{ font-family: "Source Sans Pro"; }
+.navigation ul > li > a{ font-family: Arial, Helvetica, sans-serif; }
+body{ font-size: 14px; }
+h1{ font-size: 47px; }
+h2{ font-size: 41px; }
+h3{ font-size: 32px; }
+h4{ font-size: 26px; }
+h5{ font-size: 21px; }
+h6{ font-size: 16px; }
+body{font-size:14px !important}
+h1{font-size:47px !important}
+h2{font-size:41px !important}
+h3{font-size:32px !important}
+h4{font-size:26px !important}
+h5{font-size:21px !important}
+h6{font-size:16px !important}
+.thcolor,.thcolorhover:hover,.kode-services article:hover h2 a,.kd-blog-list article:hover h2 a,.widget-blogpost ul li:hover h6 a,.kode-team article:hover h5 a,.kd-404 h1{color: #03af14 !important;  }
+
+
+.nav.navbar-nav .menu .children li:hover:before, .kode-navigation-wrapper .sub-menu li:hover:before, .tagcloud a:hover, .widget_nav_menu ul li a:hover, .widget_archive ul li:hover, .widget_categories ul li:hover, .widget_pages ul li a:hover, .widget_meta ul li:hover, .widget_recent_entries ul li a:hover, .widget_calendar caption, .form-submit .submit,.thbg-color,.thbg-colorhover:hover,.kd-topbar,#lang_sel ul li ul,.nav.navbar-nav .menu ul > li > a:before, .navbar-nav > li > a:before,.sub-dropdown li:before,.kd-usernetwork:before,
+.nav-tabs > li.active > a,.nav-tabs > li > a:hover, .nav-tabs > li.active > a:focus,.input-group-addon,.kode-team figure:before,.kd-tag ul li a:hover,
+.kode-gallery ul li figure figcaption:before,.pagination a:before,.pagination a:after,/*Widget*/.widget_categories ul li:hover,.widget_archive ul li:hover,
+.widget_search form input[type="submit"],.widget_tag a:hover,.kode-widget h3:before,.kode-widget h2:before,.kd-widget-title h2:before,.nav.navbar-nav .menu .children li:before,.kode-comments-area ul li .text a.comment-reply-link:hover{background-color: #03af14 !important;  }
+
+
+.th-bordercolor,.th-bordercolorhover:hover,blockquote,.kd-user-tag,.sub-dropdown{border-color: #03af14 !important;  }
+.kode-navigation-wrapper .children, .kode-navigation-wrapper .sub-menu{border-top-color: #03af14 !important;  }

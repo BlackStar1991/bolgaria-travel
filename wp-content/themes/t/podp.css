@@ -1,0 +1,96 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700,700italic&subset=latin,cyrillic);
+.subscribe20 {
+background: url("image/border.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+margin: 0;
+padding: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow:  0 1px 0 0 rgba(255, 255, 255, 0.88) inset, 0 0 1px 0 rgba(0, 0, 0, 0.5);
+-moz-box-shadow:  0 1px 0 0 rgba(255, 255, 255, 0.88) inset, 0 0 1px 0 rgba(0, 0, 0, 0.5);
+box-shadow:  0 1px 0 0 rgba(255, 255, 255, 0.88) inset, 0 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+.subscribe20 .inner {
+background: #f6f6f6;
+font: 13px/18px Verdana,Arial,sans-serif;
+margin: 0;
+padding: 20px 90px 20px 30px;
+position: relative;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+.subscribe20 .stamp {
+background: url("image/stamp.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+height: 64px;
+position: absolute;
+right: 0;
+top: 12px;
+width: 88px;
+}
+.subscribe20 h3 {
+margin-top: 0;
+color: #283537;
+font: bold 20px/24px "Roboto Condensed",Arial,sans-serif;
+text-transform: uppercase;
+}
+.subscribe20 #asd_subscribe_form {
+display: inline-block;
+margin: 0;
+position: relative;
+}
+.subscribe20 p {margin: 0 0 10px;}
+.subscribe20 .submit_group{position: relative;}
+.subscribe20 input[name="asd_email"] {
+box-shadow: 0 0 5px 0 #bbbbbb inset, 0 1px 0 0 #ffffff;
+font: normal 18px/31px "Roboto Condensed",Arial;
+width: 385px;
+background: linear-gradient(to bottom, #ffffff 0px, #e7e7e7 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+border: 1px solid #ababab;
+border-radius: 5px;
+color: #283537;
+margin: 0;
+padding: 4px 6px;
+position: relative;
+text-decoration: none;
+outline: 0 none;
+}
+.subscribe20 input[name="asd_submit"] {
+margin-top: -14px;
+padding: 4px 10px;
+position: absolute;
+right: 7px;
+top: 50%;
+border: 0 none;
+color: #ffffff;
+font: normal 16px/18px "Roboto Condensed",sans-serif;
+text-shadow: none;
+text-transform: uppercase;
+cursor: pointer;
+background: #F64214;
+background: -moz-linear-gradient(top,#f64214 0,#cb3914 100%);
+background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#F64214),color-stop(100%,#CB3914));
+background: -webkit-linear-gradient(top,#F64214 0,#CB3914 100%);
+background: -o-linear-gradient(top,#f64214 0,#cb3914 100%);
+background: -ms-linear-gradient(top,#f64214 0,#cb3914 100%);
+background: linear-gradient(to bottom,#F64214 0,#CB3914 100%);
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+-webkit-box-sizing:  border-box;
+-moz-box-sizing:  border-box;
+box-sizing:  border-box;
+}
+.subscribe20 input[name="asd_submit"]:hover{
+background: #CB3914;
+background: -moz-linear-gradient(top,#cb3914 0,#f64214 100%);
+background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#CB3914),color-stop(100%,#F64214));
+background: -webkit-linear-gradient(top,#CB3914 0,#F64214 100%);
+background: -o-linear-gradient(top,#cb3914 0,#f64214 100%);
+background: -ms-linear-gradient(top,#cb3914 0,#f64214 100%);
+background: linear-gradient(to bottom,#CB3914 0,#F64214 100%);
+}
+.subscribe20 input[name="asd_submit"]:active{background: #cb3914;}

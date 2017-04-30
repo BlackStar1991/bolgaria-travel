@@ -1,0 +1,107 @@
+    #sfbap_form_template_container{
+    	display: inline-block;
+    min-height: 220px;
+    margin: 10px;
+    vertical-align: top;
+}
+#wpfooter{
+    display: none;
+}
+
+#sfbap_form2_thanks{
+            width: 60% !important;
+    margin: 0 auto !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+    font-family: 'Arial' !important;
+    }
+#sfbap_option_subcontainer{
+        display: inline-block;
+    width: 40%;
+}
+#sfbap_form_view_container{
+        display: inline-block;
+    width: 59%;
+    vertical-align: top;
+}
+#sfbap_subscriber_selection_container{
+        border: 2px solid #eaeaea;
+    padding: 19px;
+    text-align: center;
+    /* margin: 10px; */
+    /* margin: 0 auto; */
+    /* display: inline-block; */
+    background: #f0f0f0;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#sfbap_form_load_form{
+    position: absolute;
+    width: 98%;
+}
+#sfbap_shortcode_value{
+	    width: 100%;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+        margin: 0 auto;
+    display: block;
+    border: 2px solid #e0e0e0;
+    padding: 0;
+    margin: 0;
+    padding: 22px 0;
+}
+#sfbap_shortcode_label{
+	    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+#sfbap-form-customizer-container{
+    position:relative;
+    width: 100%;
+    display: inline-block;
+}
+#sfbap-form1-options-contaner table tr td{
+    border-bottom: 2px solid #e2e2e2;
+
+}
+.sfbap-main-form-container{
+    float: right;
+}
+.sfbap-form-options-contaner{
+    display: inline-block;
+}
+.sfbap-update-form-button{
+    width: 200px !important;
+    height: 45px !important;
+    font-size: 19px !important;
+    box-shadow: none !important;
+    border: none !important;
+    text-shadow: none !important;
+}
+
+#sfbap-form1-heading{
+    width: 80%;
+}
+#sfbap-form2-sub-heading{
+    width: 74%;
+}
+.sfbap-loading-div{
+    background: rgba(158, 158, 158, 0.68);
+    width: 98% !important;
+    height: 98% !important;
+    display: block !important;
+    position: absolute !important;
+}
+.sfbap-loading-gears{
+    position: absolute !important;
+    top: 36% !important;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto !important;
+    width: 5% !important;
+}
+

@@ -1,0 +1,50 @@
+.kode-option-wrapper {
+    float: left;    
+    margin-top: 5px;
+	width:100%;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.kode-page-option .kode-option-wrapper {
+    background: ghostwhite;
+    float: left;
+    min-height: 170px;
+    margin: 0;
+    padding: 30px;    
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	border:1px solid #ccc;
+	border-left:none;
+	border-top:none;
+}
+.kode-option-wrapper.sidebar-wrapper {
+    background: ghostwhite none repeat scroll 0 0;
+    	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+    float: left;
+    padding: 30px;
+    width: 50%;
+}
+.kode-page-option{
+	float:left;
+	width:100%;
+}
+.kode-page-option-title{
+	padding:15px;
+	background:#0091CD;
+	color:#fff;
+}
+.kode-input-hidden{
+	display:none;
+}
+.postbox{
+	width:100%;
+	float:left;
+	clear:both;
+}
+.kode-upload-img-sample {
+	width:50px;
+}

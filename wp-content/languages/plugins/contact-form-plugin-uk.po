@@ -1,0 +1,1815 @@
+# Translation of Plugins - Contact Form by BestWebSoft - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - Contact Form by BestWebSoft - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-07 15:21:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - Contact Form by BestWebSoft - Stable (latest release)\n"
+
+#: contact_form.php:1560
+msgid "Activate for network"
+msgstr "Активувати для мережі"
+
+#: bws_menu/deprecated.php:667
+msgid "Congratulations! Pro version of the plugin is  installed and activated successfully."
+msgstr "Вітаємо! Pro версію плагіну успішно завантажено та активовано."
+
+#: bws_menu/deprecated.php:278
+msgid "Congratulations! The Pro license of the plugin is activated successfully."
+msgstr "Вітаємо! Pro версію плагіну успішно активовано."
+
+#: bws_menu/class-bws-settings.php:1049
+msgid "Start Your Free Trial"
+msgstr "Використовувати безкоштовну Trial версію"
+
+#: bws_menu/class-bws-settings.php:1038
+msgid "Watch the Video"
+msgstr "Дивитися відео"
+
+#: bws_menu/class-bws-settings.php:1034
+msgid "Read the Instruction"
+msgstr "Читати інструкцію"
+
+#: bws_menu/class-bws-settings.php:749
+msgid "Manage active licenses, download BWS products, and view your payment history using BestWebSoft Client Area."
+msgstr "Керуй активними ліцензіями, завантажуй BWS продукти, а також переглядай історію платежів за допомогою BestWebSoft Client Area."
+
+#: bws_menu/class-bws-settings.php:747
+msgid "Login to Client Area"
+msgstr "Зайти в Client Area"
+
+#: bws_menu/class-bws-settings.php:745
+msgid "Manage License Settings"
+msgstr "Управління налаштуваннями ліцензій"
+
+#: bws_menu/class-bws-settings.php:740
+msgid "If necessary, you can check if the license key is correct or reenter it in the field below."
+msgstr "При необхідності ви можете перевірити правильність вашого ліцензійного ключа або знову ввести його у полі, що знаходиться нижче."
+
+#: bws_menu/class-bws-settings.php:719
+msgid "Enter your license key to activate %s and get premium plugin features."
+msgstr "Введіть ліцензійний ключ для активації %s і отримання додаткових можливостей плагіна."
+
+#: bws_menu/class-bws-settings.php:704
+msgid "Settings page"
+msgstr "сторінку налаштувань"
+
+#: bws_menu/class-bws-settings.php:704
+msgid "You will be automatically redirected to the %s in 7 seconds."
+msgstr "Вас буде автоматично перенаправлено на %s через 7 секунд."
+
+#: bws_menu/class-bws-settings.php:703
+msgid "Congratulations! Pro license is activated successfully."
+msgstr "Вітаємо! Pro ліцензія успішно активована."
+
+#: bws_menu/class-bws-settings.php:690 bws_menu/class-bws-settings.php:713
+#: bws_menu/class-bws-settings.php:735
+msgid "License Key"
+msgstr "Ключ ліцензії"
+
+#: bws_menu/class-bws-settings.php:574
+msgid "Import / Export"
+msgstr "Імпорт / Експорт"
+
+#: bws_menu/class-bws-settings.php:562
+msgid "This will restore plugin settings to defaults."
+msgstr "Відновити всі налаштування плагіна до налаштувань за замовчуванням."
+
+#: bws_menu/class-bws-settings.php:561
+msgid "Restore Settings"
+msgstr "Відновлення налаштувань"
+
+#: bws_menu/class-bws-settings.php:559
+msgid "Default Settings"
+msgstr "Налаштування за замовчуванням"
+
+#: bws_menu/class-bws-settings.php:555
+msgid "Enable to allow tracking plugin usage anonymously in order to make it better."
+msgstr "Включити, щоб дозволити анонімно відстежувати використання і зробити плагін краще."
+
+#: bws_menu/class-bws-settings.php:552
+msgid "Track Usage"
+msgstr "Збирати статистику"
+
+#: bws_menu/class-bws-settings.php:547
+msgid "Enable to display plugin Pro options."
+msgstr "Увімкніть для відображення Pro опцій плагіна."
+
+#: bws_menu/class-bws-settings.php:544
+msgid "Pro Options"
+msgstr "Pro опції"
+
+#: bws_menu/class-bws-settings.php:535 bws_menu/class-bws-settings.php:586
+msgid "It is prohibited to view %s settings on this site in the %s network settings."
+msgstr "Мережевими налаштуваннями %s забороняється дивитися налаштування %s на цьому сайті."
+
+#: bws_menu/class-bws-settings.php:532 bws_menu/class-bws-settings.php:583
+msgid "It is prohibited to change %s settings on this site in the %s network settings."
+msgstr "Мережевими налаштуваннями %s забороняється змінювати налаштування %s на цьому сайті."
+
+#: bws_menu/class-bws-settings.php:523
+msgid "Miscellaneous Settings"
+msgstr "Інші налаштування"
+
+#: bws_menu/class-bws-settings.php:456
+msgid "Activate custom %s code."
+msgstr "Активувать користувацький %s код."
+
+#: bws_menu/class-bws-settings.php:434
+msgid "These code will be added to the header on all pages of your site."
+msgstr "Цей код буде додано в заголовок на всіх сторінках вашого сайту."
+
+#: bws_menu/class-bws-settings.php:419
+msgid "Custom Code"
+msgstr "Користувацький код"
+
+#: bws_menu/class-bws-settings.php:173
+msgid "Version"
+msgstr "Версія"
+
+#: bws_menu/class-bws-settings.php:169
+msgid "Status"
+msgstr "Статус"
+
+#: bws_menu/class-bws-settings.php:166
+msgid "License"
+msgstr "Ліцензія"
+
+#: bws_menu/class-bws-settings.php:161
+msgid "Active"
+msgstr "Активна"
+
+#: bws_menu/class-bws-settings.php:159
+msgid "Renew Now"
+msgstr "Відновити зараз"
+
+#: bws_menu/class-bws-settings.php:159
+msgid "Expired on %s"
+msgstr "Витікає %s"
+
+#: bws_menu/class-bws-settings.php:153
+msgid "%s day(-s) left"
+msgstr "%s днів залишилося"
+
+#: bws_menu/class-bws-settings.php:150
+msgid "Expired"
+msgstr "Закінчилась"
+
+#: bws_menu/class-bws-settings.php:142
+msgid "Inactive"
+msgstr "Неактивна"
+
+#: bws_menu/class-bws-settings.php:134
+msgid "Information"
+msgstr "Інформація"
+
+#: bws_menu/bws_menu.php:425
+msgid "The plugin %s is successfully installed."
+msgstr "Плагін %s успішно встановлено."
+
+#: bws_menu/bws_menu.php:226
+msgid "WP DB version"
+msgstr "Версія бази даних WordPress"
+
+#: bws_menu/bws_menu.php:224
+msgid "Database"
+msgstr "База даних"
+
+#: bws_menu/bws_menu.php:205
+msgid "Server Environment"
+msgstr "Системне оточення сервера"
+
+#: bws_menu/bws_menu.php:201 bws_menu/bws_menu.php:246
+#: bws_menu/bws_menu.php:249
+msgid "by %s"
+msgstr "%s"
+
+#: bws_menu/bws_menu.php:200
+msgid "WP Memory Limit"
+msgstr "Ліміт пам’яті WordPress"
+
+#: bws_menu/bws_menu.php:199
+msgid "WP Multisite"
+msgstr "Мультисайт"
+
+#: bws_menu/bws_menu.php:198
+msgid "WP Version"
+msgstr "Версія WordPress"
+
+#: bws_menu/bws_menu.php:197
+msgid "Website URL"
+msgstr "Адреса сайту"
+
+#: bws_menu/bws_menu.php:194
+msgid "WordPress Environment"
+msgstr "Системне оточення WordPress"
+
+#: bws_menu/bws_menu.php:144
+msgid "Congratulations! Pro Membership license is  activated successfully."
+msgstr "Вітаємо! Pro Membership ліцензія успішно активована."
+
+#: bws_menu/bws_functions.php:792
+msgid "Are you sure you want to restore default settings?"
+msgstr "Ви впевнені, що хочете скинути налаштування плагіну до стандартних?"
+
+#: bws_menu/bws_functions.php:510
+msgid "You can always look at premium options by checking the \"Pro Options\" in the \"Misc\" tab."
+msgstr "Ви завжди можете подивитися на преміум опції, натиснувши на кнопку \"Pro опції\" на вкладці \"Різне\"."
+
+#: bws_menu/bws_functions.php:382
+msgid "Your license key for %s expires on %s and you won't be granted TOP-PRIORITY SUPPORT or UPDATES."
+msgstr "Ваш ліцензійний ключ для %s витікає %s та ви більше не будете отримувати першочергову технічну підтримку та оновлення."
+
+#: bws_menu/bws_functions.php:276
+msgid "This function(-s) will be removed over time. Please update the product(-s)."
+msgstr "Ці функції буде видалено через деякий час. Будь ласка, поновіть продукт."
+
+#: bws_menu/bws_functions.php:262
+msgid "Deprecated function(-s) is used on the site here:"
+msgstr "Застарілі функціі використовується на сайті тут:"
+
+#: bws_menu/bws_functions.php:106
+msgid "Want to support the plugin?"
+msgstr "Хочете підтримати плагін?"
+
+#: bws_menu/bws_functions.php:93
+msgid "Rate it"
+msgstr "Оцінити"
+
+#: bws_menu/bws_functions.php:91
+msgid "Like the plugin?"
+msgstr "Сподобався плагін?"
+
+#. Plugin URI of the plugin/theme
+msgid "https://bestwebsoft.com/products/wordpress/plugins/contact-form/"
+msgstr "https://bestwebsoft.com/products/wordpress/plugins/contact-form/"
+
+#: includes/deprecated.php:168
+msgid "Deprecated shortcode %1s from the %2s plugin is used on your site. Please replace it with %3s. If you close this message it'll appear again after deprecated shortcode reuse."
+msgstr "Застарілий шорткод %1s плагіна %2s використовується на вашому сайті. Будь ласка, замініть його на %3s. Якщо закрити це повідомлення, воно з'явиться знову після повторного використання застарілого шорткода."
+
+#. Description of the plugin/theme
+msgid "Simple contact form plugin any WordPress website must have."
+msgstr "Контактна форма, яка повинна бути у кожного сайту WordPress."
+
+#: contact_form.php:1224
+msgid "Sending method"
+msgstr "Метод відправки"
+
+#: contact_form.php:1199 contact_form.php:1551 contact_form.php:1593
+#: contact_form.php:1628
+msgid "settings page"
+msgstr "сторінка налаштувань "
+
+#: contact_form.php:1196 contact_form.php:1548 contact_form.php:1590
+#: contact_form.php:1625
+msgid "Please activate the appropriate option on"
+msgstr "Будь ласка, активуйте вiдповiдну опцiю на сторiнцi налаштувань"
+
+#: contact_form.php:1144
+msgid "Enter the email address for receiving messages"
+msgstr "Вкажіть email, на який ви бажаєте отримувати повідомлення"
+
+#: bws_menu/bws_menu.php:522
+msgid "Not installed"
+msgstr "Не встановлено"
+
+#: bws_menu/bws_menu.php:161
+msgid "Please enter your license key."
+msgstr "Будь ласка, введіть ваш ліцензійний ключ."
+
+#: contact_form.php:1075
+msgid "Custom code"
+msgstr "Користувацький код"
+
+#: bws_menu/product_list.php:15
+msgid "Other"
+msgstr "Інше"
+
+#: bws_menu/product_list.php:14
+msgid "Utilities"
+msgstr "Утиліти"
+
+#: bws_menu/product_list.php:13
+msgid "Social"
+msgstr "Соціальне"
+
+#: bws_menu/product_list.php:12
+msgid "Site Stats"
+msgstr "Статистика сайту"
+
+#: bws_menu/product_list.php:11
+msgid "Security"
+msgstr "Безпека"
+
+#: bws_menu/product_list.php:9
+msgid "Management"
+msgstr "Управління"
+
+#: bws_menu/product_list.php:8
+msgid "Content & Media"
+msgstr "Зміст & Медіа"
+
+#: bws_menu/product_list.php:7
+msgid "Advertisement"
+msgstr "Реклама"
+
+#: bws_menu/bws_menu.php:657
+msgid "Browse Free WordPress Themes"
+msgstr "Огляд безкоштовних WordPress тем"
+
+#: bws_menu/bws_menu.php:582
+msgid "Nothing found. Try another criteria."
+msgstr "Нічого не знайдено. Спробуйте інші критерії."
+
+#: bws_menu/bws_menu.php:573
+msgid "Install this plugin"
+msgstr "Встановити плагін"
+
+#: bws_menu/bws_functions.php:107 bws_menu/bws_menu.php:551
+msgid "Donate"
+msgstr "Пожертвувати"
+
+#: bws_menu/bws_menu.php:547 bws_menu/class-bws-settings.php:155
+#: bws_menu/class-bws-settings.php:1045 contact_form.php:1170
+#: contact_form.php:1492 contact_form.php:1661 contact_form.php:1880
+#: contact_form.php:2152
+msgid "Upgrade to Pro"
+msgstr "Оновитися на Pro"
+
+#: bws_menu/bws_menu.php:529
+msgid "Update to v %s"
+msgstr "Оновити до версії %s"
+
+#: bws_menu/bws_menu.php:526
+msgid "Renew to get updates"
+msgstr "Продовжити для поновлення"
+
+#: bws_menu/bws_menu.php:458 bws_menu/bws_menu.php:587
+msgid "Category"
+msgstr "Категорія"
+
+#: bws_menu/bws_menu.php:455
+msgid "Filter results"
+msgstr "Фільтр результатів"
+
+#: bws_menu/bws_menu.php:449
+msgid "Not Installed"
+msgstr "Не встановлені"
+
+#: bws_menu/bws_menu.php:437 bws_menu/bws_menu.php:443
+msgid "Return to BestWebSoft Panel"
+msgstr "Назад до BestWebSoft Panel"
+
+#: bws_menu/bws_menu.php:437
+msgid "Activate Plugin"
+msgstr "Активувати плагін"
+
+#: bws_menu/bws_menu.php:411 bws_menu/bws_menu.php:419
+msgid "Installing the plugin"
+msgstr "Встановлення плагіну"
+
+#: bws_menu/bws_menu.php:406
+msgid "Unpacking the package"
+msgstr "Розпакування пакета"
+
+#: bws_menu/bws_menu.php:381
+msgid "Downloading install package from"
+msgstr "Завантаження встановлюючого пакунку з"
+
+#: bws_menu/bws_menu.php:375
+msgid "Installing Plugin"
+msgstr "Встановлення плагіну"
+
+#: bws_menu/bws_menu.php:368
+msgid "Plugin <strong>activated</strong>."
+msgstr "Плагін <strong>активовано</strong>."
+
+#: bws_menu/bws_menu.php:365
+msgid "Plugin could not be activated because it triggered a <strong>fatal error</strong>."
+msgstr "Плагін не вдалося активувати, бо він спричинив <strong>критичну помилку</strong>."
+
+#: bws_menu/bws_menu.php:363
+msgid "The plugin generated %d characters of <strong>unexpected output</strong> during activation. If you notice &#8220;headers already sent&#8221; messages, problems with syndication feeds or other issues, try deactivating or removing this plugin."
+msgstr "Цей плагін згенерував стільки символів <strong>неочікуваного виводу</strong> під час активації: %d. Якщо ви помітите повідомлення &#8220;заголовки вже надіслані&#8221;, проблеми з каналами чи інші неполадки, спробуйте вимкнути чи видалити цей плагін."
+
+#: bws_menu/bws_menu.php:359
+msgid "Upload Plugin"
+msgstr "Завантажити плагін"
+
+#: bws_menu/bws_menu.php:326
+msgid "Subscribe to Pro Membership"
+msgstr "Підписатися на Pro Membership"
+
+#: bws_menu/bws_menu.php:337
+msgid "Enter your license key"
+msgstr "Ваш ліцензійний ключ"
+
+#: bws_menu/bws_menu.php:324
+msgid "Get Access to %s+ Premium Plugins"
+msgstr "Отримати Доступ до %s+ Преміум Плагинам"
+
+#: bws_menu/bws_menu.php:316
+msgid "Manage purchased licenses & subscriptions"
+msgstr "Управління придбаними ліцензіями і підписками"
+
+#: bws_menu/bws_menu.php:128
+msgid "Log in"
+msgstr "Увійти"
+
+#: bws_menu/bws_menu.php:128
+msgid "This license key is bound to another site. Change it via personal Client Area."
+msgstr "Цей ліцензійний ключ прив'язано до іншого сайту. Змініть це в Client Area."
+
+#: bws_menu/class-bws-settings.php:442 bws_menu/deprecated.php:644
+msgid "You need to make this files writable before you can save your changes. See %s the Codex %s for more information."
+msgstr "Вам потрібно зробити цей файл доступним для запису, перед тим як ви зможете зберегти свої зміни. Перегляньте %sКодекс%s для додаткової інформації."
+
+#: bws_menu/class-bws-settings.php:463 bws_menu/deprecated.php:633
+msgid "Learn more about %s"
+msgstr "Дізнатись більше про %s"
+
+#: bws_menu/class-bws-settings.php:452 bws_menu/deprecated.php:626
+msgid "Browsing"
+msgstr "Огляд"
+
+#: bws_menu/deprecated.php:624
+msgid "Editing"
+msgstr "Редагування"
+
+#: bws_menu/class-bws-settings.php:431 bws_menu/deprecated.php:620
+msgid "This PHP code will be hooked to the %s action and will be printed on front end only."
+msgstr "Цей PHP код буде прикріплений до %s action  і буде додано лише у фронтенді."
+
+#: bws_menu/class-bws-settings.php:428 bws_menu/deprecated.php:618
+msgid "These styles will be added to the header on all pages of your site."
+msgstr "Ці стилі будуть додані в заголовок на всіх сторінках вашого сайту."
+
+#: bws_menu/deprecated.php:580
+msgid "Not enough permissions to create the file"
+msgstr "У Вас недостатньо дозволів для створення файлу"
+
+#: bws_menu/deprecated.php:550 bws_menu/deprecated.php:577
+msgid "Not enough permissions to create or update the file"
+msgstr "У Вас недостатньо дозволів для створення або поновлення файлу"
+
+#: bws_menu/deprecated.php:548 bws_menu/deprecated.php:575
+msgid "File %s edited successfully."
+msgstr "Файл %s успішно відредаговано."
+
+#: bws_menu/class-bws-settings.php:423 bws_menu/deprecated.php:497
+msgid "You do not have sufficient permissions to edit plugins for this site."
+msgstr "У вас недостатньо повноважень для редагування плагінів цього сайту."
+
+#: bws_menu/deprecated.php:251 bws_menu/deprecated.php:690
+msgid "(your username is the email address specified during the purchase)."
+msgstr "(ваше ім'я користувача - це емейл, який ви вказували при купівлі)"
+
+#: bws_menu/deprecated.php:249 bws_menu/deprecated.php:688
+msgid "License key can be found in the"
+msgstr "Ліцензійний ключ можна знайти в"
+
+#: bws_menu/deprecated.php:686
+msgid "version of the plugin."
+msgstr "версія плагіна."
+
+#: bws_menu/deprecated.php:684
+msgid "Enter your license key to install and activate"
+msgstr "Введіть ліцензійний ключ для установки і активації"
+
+#: bws_menu/bws_functions.php:234
+msgid "Less Details"
+msgstr "Сховати Деталі"
+
+#: bws_menu/bws_functions.php:233
+msgid "More Details"
+msgstr "Деталі"
+
+#: bws_menu/bws_functions.php:231
+msgid "Thank you for installing plugins by BestWebSoft!"
+msgstr "Дякуємо, що встановили плагіни від BestWebSoft!"
+
+#: bws_menu/deprecated.php:93
+msgid "System Status"
+msgstr "Системна інформація"
+
+#: contact_form.php:1976
+msgid "Labels align"
+msgstr "Вирівнювання імен полів"
+
+#: contact_form.php:1971
+msgid "Bottom"
+msgstr "Знизу"
+
+#: contact_form.php:1962
+msgid "Top"
+msgstr "Зверху"
+
+#: contact_form.php:1958
+msgid "Labels position"
+msgstr "Розташування імен полів"
+
+#: contact_form.php:1950 contact_form.php:1983
+msgid "Center"
+msgstr "По центру"
+
+#: contact_form.php:1943
+msgid "Form align"
+msgstr "Вирівнювання форми"
+
+#: contact_form.php:1686
+msgid "Sent from (IP address)"
+msgstr "Надіслано від (IP адреса)"
+
+#: contact_form.php:1231
+msgid "You can use the Wordpress wp_mail function for mailing"
+msgstr "Для відправлення повідомлень ви можете використовувати Wordpress функцію wp_mail"
+
+#: bws_menu/bws_functions.php:479
+msgid "Suggest a Feature"
+msgstr "Запропонувати функціонал"
+
+#: bws_menu/bws_functions.php:478
+msgid "If you have a feature, suggestion or idea you'd like to see in the plugin, we'd love to hear about it!"
+msgstr "Якщо у вас є пропозиції по додаванню нового або поліпшення поточного функціоналу плагіна, будь ласка, надсилайте їх нам! Ми завжди відкриті для нових ідей!"
+
+#: bws_menu/bws_functions.php:477
+msgid "Thank you for choosing"
+msgstr "Дякуємо, що обрали"
+
+#: contact_form.php:3775 contact_form.php:3785
+msgid "Language"
+msgstr "Мова"
+
+#: contact_form.php:3762
+msgid "Contact form"
+msgstr "Контактна форма"
+
+#: contact_form.php:2164
+msgid "Drag the necessary field to sort fields."
+msgstr "Перетягніть необхідне поле для сортування полів."
+
+#: contact_form.php:1931 contact_form.php:1953 contact_form.php:1968
+#: contact_form.php:1986
+msgid "Right"
+msgstr "Праворуч"
+
+#: contact_form.php:1928 contact_form.php:1947 contact_form.php:1965
+#: contact_form.php:1980
+msgid "Left"
+msgstr "Ліворуч"
+
+#: contact_form.php:1919
+msgid "Two columns"
+msgstr "Дві колонки"
+
+#: contact_form.php:1916
+msgid "One column"
+msgstr "Одна колонка"
+
+#: contact_form.php:1903
+msgid "Please enable JavaScript to change '%s', '%s' options and for fields sorting."
+msgstr "Будь ласка, включіть JavaScript для зміни опцій '%s', '%s' і сортування полів."
+
+#: contact_form.php:1860
+msgid "Field 'Reply-To' will be initialized by user email"
+msgstr "Поле 'Reply-To' буде проініціалізовано електронною поштою користувача"
+
+#: contact_form.php:1858
+msgid "Add field 'Reply-To' to the email header"
+msgstr "Додати поле 'Reply-To' до заголовку еmail"
+
+#: contact_form.php:1107
+msgid "You can add the Contact Form to your page or post by clicking on %s button in the content edit block using the Visual mode. If the button isn't displayed, please use the shortcode %s or %s where * stands for Contact Form language."
+msgstr "Ви можете додати контактну форму на вашу сторінку або до запису, натиснувши на кнопку %s в блоці редагування контенту в режимі Visual. Якщо кнопка не відображається, будь ласка, використовуйте шорткод %s або %s де * позначає мову контактної форми."
+
+#: contact_form.php:1101
+msgid "If you would like to add a Contact Form to your page or post, please use %s button"
+msgstr "Якщо ви хочете додати контактну форму на вашу сторінку або до запису, то використовуйте кнопку %s"
+
+#: contact_form.php:1091
+msgid "NEW_FORM"
+msgstr "НОВА_ФОРМА"
+
+#: contact_form.php:1903 contact_form.php:1924
+msgid "Submit position"
+msgstr "Позиція кнопки 'Відправити'"
+
+#: contact_form.php:1903 contact_form.php:1912
+msgid "Form layout"
+msgstr "Шаблон форми"
+
+#: contact_form.php:1069
+msgid "How to Use Step-by-step Instruction"
+msgstr "Покрокова інструкція з використання плагіна"
+
+#: bws_menu/bws_functions.php:930
+msgid "Submit a Request"
+msgstr "Надіслати запит"
+
+#: bws_menu/bws_functions.php:929
+msgid "Video Instructions"
+msgstr "Відео інструкції"
+
+#: bws_menu/bws_functions.php:928
+msgid "Documentation"
+msgstr "Документація"
+
+#: bws_menu/bws_functions.php:927
+msgid "For more information:"
+msgstr "Для отримання додаткової інформації:"
+
+#: bws_menu/bws_functions.php:103 bws_menu/bws_functions.php:916
+#: bws_menu/class-bws-settings.php:1036
+msgid "Visit Help Center"
+msgstr "Перейти в Help Center"
+
+#: bws_menu/bws_functions.php:651
+msgid "Add BestWebSoft plugins' shortcodes using this button."
+msgstr "Додайте шорткоди BestWebSoft плагінів за допомогою цієї кнопки."
+
+#: bws_menu/bws_functions.php:651
+msgid "Add shortcode"
+msgstr "Додати шорткод"
+
+#: bws_menu/bws_functions.php:632
+msgid "Add BWS Plugins Shortcode"
+msgstr "Додати BWS шорткод"
+
+#: bws_menu/bws_functions.php:495
+msgid "The plugin's settings have been changed."
+msgstr "Налаштування плагіну змінено."
+
+#: bws_menu/bws_functions.php:495 bws_menu/class-bws-settings.php:532
+#: bws_menu/class-bws-settings.php:535 bws_menu/class-bws-settings.php:583
+#: bws_menu/class-bws-settings.php:586 contact_form.php:1087
+msgid "Notice"
+msgstr "Зауважте"
+
+#: bws_menu/deprecated.php:677
+msgid "Show Pro features"
+msgstr "Показати Pro опції"
+
+#: bws_menu/deprecated.php:315
+msgid "Check premium options on the plugin settings page!"
+msgstr "Подивіться преміум опції на сторінці налаштувань плагіна!"
+
+#: bws_menu/bws_functions.php:192
+msgid "or higher! We do not guarantee that our plugin will work correctly. Please upgrade to WordPress latest version."
+msgstr "чи вище! Ми не гарантуємо, що наш плагін буде працювати правильно. Будь ласка, оновіть WordPress до останньої версії."
+
+#. Author URI of the plugin/theme
+msgid "https://bestwebsoft.com/"
+msgstr "http://bestwebsoft.com/"
+
+#. Author of the plugin/theme
+msgid "BestWebSoft"
+msgstr "BestWebSoft"
+
+#. Plugin Name of the plugin/theme
+msgid "Contact Form by BestWebSoft"
+msgstr "Contact Form by BestWebSoft"
+
+#: contact_form.php:3699
+msgid "Manage messages that have been sent from your website."
+msgstr "Контролювати повідомлення, які було відправлено з Вашого сайту. "
+
+#: contact_form.php:3698
+msgid "allows to store your messages to the database."
+msgstr "дозволяє зберігати ваші повідомлення у базі даних."
+
+#: contact_form.php:3462
+msgid "Install Contact Form Multi plugin to create unlimited number of contact forms."
+msgstr "Встановити плагін Contact Form Multi, щоб мати можливість створювати необмежену кількість контактних форм."
+
+#: contact_form.php:3462
+msgid "Add multiple forms"
+msgstr "Додати декілька форм"
+
+#: contact_form.php:3441
+msgid "Are you sure that you want to delete this language data?"
+msgstr "Ви справді хочете видалити дані для цієї мови?"
+
+#: bws_menu/bws_menu.php:315 contact_form.php:3392
+msgid "Support"
+msgstr "Підтримка"
+
+#: contact_form.php:3308
+msgid "If you can see this MIME, it means that the MIME type is not supported by your email client!"
+msgstr "Якщо Ви бачите цей MIME, це означає, що цей MIME тип не підтримується Вашим поштовим клієнтом!"
+
+#: contact_form.php:3129 contact_form.php:3178
+msgid "Site"
+msgstr "Сайт"
+
+#: contact_form.php:3124
+msgid "Contact from"
+msgstr "Контакт із"
+
+#: contact_form.php:2163
+msgid "Contact Form | Preview"
+msgstr "Contact Form | Попередній перегляд"
+
+#: contact_form.php:2134
+msgid "Button text color"
+msgstr "Колір тексту кнопок"
+
+#: contact_form.php:2129
+msgid "Button color"
+msgstr "Колір кнопок"
+
+#: contact_form.php:2124
+msgid "Width in px, numbers only"
+msgstr "Ширина в пікселях, тільки числа"
+
+#: contact_form.php:2120
+msgid "Submit button"
+msgstr "Кнопка підтвердження"
+
+#: contact_form.php:2115 contact_form.php:2139
+msgid "Border color"
+msgstr "Колір рамки"
+
+#: contact_form.php:2110
+msgid "Border width in px, numbers only"
+msgstr "Ширина рамки в пікселях, тільки числа"
+
+#: contact_form.php:2106
+msgid "Text fields color"
+msgstr "Колір текстових полів"
+
+#: contact_form.php:2101
+msgid "Input fields background color"
+msgstr "Колір фону полів введення"
+
+#: contact_form.php:2096
+msgid "Input fields"
+msgstr "Поля введення тексту"
+
+#: contact_form.php:2091
+msgid "Placeholder color of the input field errors"
+msgstr "Колір тексту заповнювача для полів введення з помилками"
+
+#: contact_form.php:2086
+msgid "Border color of the input field errors"
+msgstr "Колір рамки для полів введення з помилками"
+
+#: contact_form.php:2081
+msgid "Background color of the input field errors"
+msgstr "Колір заднього фону для полів введення з помилками"
+
+#: contact_form.php:2076
+msgid "Error text color"
+msgstr "Колір тексту помилок"
+
+#: contact_form.php:2071
+msgid "Errors color"
+msgstr "Колір помилок"
+
+#: contact_form.php:2066
+msgid "Placeholder color"
+msgstr "Колір тексту заповнювача"
+
+#: contact_form.php:2061
+msgid "Label text color"
+msgstr "Колір написів"
+
+#: contact_form.php:1712 contact_form.php:1808 contact_form.php:2059
+#: contact_form.php:2064 contact_form.php:2074 contact_form.php:2079
+#: contact_form.php:2084 contact_form.php:2089 contact_form.php:2099
+#: contact_form.php:2104 contact_form.php:2113 contact_form.php:2127
+#: contact_form.php:2132 contact_form.php:2137
+msgid "Default"
+msgstr "Стандартно"
+
+#: contact_form.php:2056
+msgid "Text color"
+msgstr "Колір тексту"
+
+#: contact_form.php:2052
+msgid "Style options"
+msgstr "Опції стилю"
+
+#: contact_form.php:301 contact_form.php:1733 contact_form.php:1771
+#: contact_form.php:2040
+msgid "Attachment"
+msgstr "Вкладений файл"
+
+#: contact_form.php:2026 contact_form.php:3167 contact_form.php:3208
+msgid "Phone Number"
+msgstr "Номер телефону"
+
+#: contact_form.php:2021
+msgid "Email address"
+msgstr "Email"
+
+#: contact_form.php:2007
+msgid "Add tooltips"
+msgstr "Додати підказки"
+
+#: contact_form.php:2001
+msgid "Add placeholder to the input blocks"
+msgstr "Додати текст заповнювача для блоків введення"
+
+#: contact_form.php:1996
+msgid "Display error messages & color of the input field errors"
+msgstr "Відображення повідомлень про помилку і колір для полів з помилками у полях введення"
+
+#: contact_form.php:1995
+msgid "Color of the input field errors."
+msgstr "Колір для помилок у полях введення."
+
+#: contact_form.php:1994
+msgid "Display error messages"
+msgstr "Відображати повідомлення про помилки"
+
+#: contact_form.php:1991
+msgid "Errors output"
+msgstr "Відображення помилок"
+
+#: bws_menu/bws_functions.php:496 bws_menu/class-bws-settings.php:181
+#: bws_menu/class-bws-settings.php:201 bws_menu/deprecated.php:640
+#: contact_form.php:1890 contact_form.php:2389
+msgid "Save Changes"
+msgstr "Зберегти зміни"
+
+#: contact_form.php:1868
+msgid "You can use %%NAME%% to display data from the email field and %%MESSAGE%% to display data from the Message field, as well as %%SITENAME%% to display blog name."
+msgstr "Ви можете використувувати %%NAME%% для відображення даних поля email, %%MESSAGE%% для відображення даних поля повідомлень і %%SITENAME%% для відображення назви блогу."
+
+#: contact_form.php:1864
+msgid "Auto Response"
+msgstr "Автовідповідь"
+
+#: contact_form.php:1847
+msgid "Url"
+msgstr "Посилання"
+
+#: contact_form.php:1846
+msgid "Redirect to the page"
+msgstr "Перенаправлення на сторінку"
+
+#: contact_form.php:1821 contact_form.php:1835
+msgid "Text"
+msgstr "Текст"
+
+#: contact_form.php:1807
+msgid "Display text"
+msgstr "Показати текст"
+
+#: contact_form.php:1805
+msgid "Action after email is sent"
+msgstr "Дія після відправлення листа з контактної форми"
+
+#: contact_form.php:1799
+msgid "Use the changed names of the contact form fields in the email"
+msgstr "Використовувати змінені імена полів контактної форми у повідомленні"
+
+#: contact_form.php:1751 contact_form.php:1753 contact_form.php:1789
+#: contact_form.php:1791 contact_form.php:1823 contact_form.php:1825
+#: contact_form.php:1837 contact_form.php:1839 contact_form.php:3538
+#: contact_form.php:3540
+msgid "for this language"
+msgstr "для цієї мови"
+
+#: contact_form.php:1751 contact_form.php:1753 contact_form.php:1789
+#: contact_form.php:1791 contact_form.php:1823 contact_form.php:1825
+#: contact_form.php:1837 contact_form.php:1839 contact_form.php:3538
+#: contact_form.php:3540
+msgid "Use shortcode"
+msgstr "Використовуйте шорткод"
+
+#: contact_form.php:1748 contact_form.php:1786
+msgid "Error message for the whole form"
+msgstr "Повідомлення про помилку для всієї форми"
+
+#: contact_form.php:1747 contact_form.php:1785
+msgid "Error message for the Captcha field"
+msgstr "Повідомлення про помилку для поля Captcha"
+
+#: contact_form.php:1746 contact_form.php:1784
+msgid "Error message when file size limit for the Attachment field is exceeded"
+msgstr "Повідомлення про помилку для поля Прикріплені файли, коли розмір файлу перевищує допустимий"
+
+#: contact_form.php:1745 contact_form.php:1783
+msgid "Error message while moving the file for the Attachment field"
+msgstr "Повідомлення про помилку під час переміщення файлу для поля Прикріплені файли"
+
+#: contact_form.php:1744 contact_form.php:1782
+msgid "Error message while uploading a file for the Attachment field to the server"
+msgstr "Повідомлення про помилку під час завантаження файлу на сервер для поля Прикріплені файли"
+
+#: contact_form.php:1743 contact_form.php:1781
+msgid "Error message about the file type for the Attachment field"
+msgstr "Повідомлення про помилку для поля Прикріплені файли"
+
+#: contact_form.php:1742 contact_form.php:1780
+msgid "Error message for the Message field"
+msgstr "Повідомлення про помилку для поля Повідомлення"
+
+#: contact_form.php:1741 contact_form.php:1779
+msgid "Error message for the Subject field"
+msgstr "Повідомлення про помилку для поля Тема"
+
+#: contact_form.php:1740 contact_form.php:1778
+msgid "Error message for the Phone field"
+msgstr "Повідомлення про помилку для поля Номер телефону"
+
+#: contact_form.php:1739 contact_form.php:1777
+msgid "Error message for the Email field"
+msgstr "Повідомлення про помилку для поля Email"
+
+#: contact_form.php:1738 contact_form.php:1776
+msgid "Error message for the Address field"
+msgstr "Повідомлення про помилку для поля Адреса"
+
+#: contact_form.php:1737 contact_form.php:1775
+msgid "Error message for the Name field"
+msgstr "Повідомлення про помилку для поля Ім'я"
+
+#: contact_form.php:1734 contact_form.php:1772
+msgid "Tips below the Attachment block"
+msgstr "Підказки під блоком прикріплення файлів"
+
+#: contact_form.php:1725 contact_form.php:1763
+msgid "click to expand/hide the list"
+msgstr "натиснути, щоб розгорнути/згорнути список"
+
+#: contact_form.php:1707
+msgid "Change the names of the contact form fields and error messages"
+msgstr "Змінити імена полів контактної форми і повідомлення про помилку"
+
+#: contact_form.php:1703
+msgid "Add a language"
+msgstr "Додати мову"
+
+#: contact_form.php:1694
+msgid "Language settings for the field names in the form"
+msgstr "Налаштування мови для імен полів форми"
+
+#: contact_form.php:1689
+msgid "Example: Using (user agent):\tMozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36"
+msgstr "Приклад: Використовується (user agent):\tMozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36"
+
+#: contact_form.php:1689 contact_form.php:3112 contact_form.php:3114
+msgid "Using (user agent)"
+msgstr "Використовується (user agent)"
+
+#: contact_form.php:1688
+msgid "Example: Sent from (referer):\thttps://bestwebsoft.com/contacts/contact-us/"
+msgstr "Приклад: Надіслано від (referer):\thttps://bestwebsoft.com/contacts/contact-us/"
+
+#: contact_form.php:1688 contact_form.php:3106 contact_form.php:3108
+msgid "Sent from (referer)"
+msgstr "Надіслано від (referer)"
+
+#: contact_form.php:1687
+msgid "Example: Date/Time:\tAugust 19, 2013 8:50 pm"
+msgstr "Приклад: Дата/Час:\tСерпень 19, 2013 8:50 pm"
+
+#: contact_form.php:1687 contact_form.php:3100 contact_form.php:3102
+msgid "Date/Time"
+msgstr "Дата/Час"
+
+#: contact_form.php:1686
+msgid "Example: Sent from (IP address):\t127.0.0.1"
+msgstr "Приклад: Надіслано від (IP адреса):\t127.0.0.1"
+
+#: contact_form.php:3094 contact_form.php:3096
+msgid "Sent from (ip address)"
+msgstr "Надіслано від (IP адреса)"
+
+#: contact_form.php:1680
+msgid "Display additional info in the email"
+msgstr "Відображати додаткову інформацію у повідомленні"
+
+#: contact_form.php:1676
+msgid "Email in HTML format sending"
+msgstr "Відправка повідомлення в форматі HTML"
+
+#: contact_form.php:1670
+msgid "Delete an attachment file from the server after the email is sent"
+msgstr "Видаляти прикріплений файл з серверу після того, як повідомлення відправлено"
+
+#: contact_form.php:1652
+msgid "Optional checkbox, the results of which will be displayed in email"
+msgstr "Додатковий чекбокс, результати якого буде відображено у еmail-повідомленні"
+
+#: contact_form.php:1652
+msgid "Optional checkbox"
+msgstr "Додатковий чекбокс"
+
+#: contact_form.php:1651
+msgid "Required checkbox for submitting the form"
+msgstr "Необхідний чекбокс для відправки форми"
+
+#: contact_form.php:1651
+msgid "Agreement checkbox"
+msgstr "Чекбокс для погодження"
+
+#: contact_form.php:1532
+msgid "'Send me a copy' block"
+msgstr "Блок \"Надіслати мені копію\""
+
+#: contact_form.php:1525
+msgid "Tips below the Attachment"
+msgstr "Показувати підказки під блоком прикріплених файлів"
+
+#: contact_form.php:1520
+msgid "Add to the form"
+msgstr "Додати до форми"
+
+#: contact_form.php:1502
+msgid "Users can attach the following file formats"
+msgstr "Користувачі можуть прикріплювати файли наступних форматів"
+
+#: contact_form.php:1500
+msgid "Attachment block"
+msgstr "Блок для прикріплення файлів"
+
+#: contact_form.php:300 contact_form.php:1462 contact_form.php:1732
+#: contact_form.php:1770 contact_form.php:2035 contact_form.php:3161
+#: contact_form.php:3203
+msgid "Message"
+msgstr "Повідомлення"
+
+#: contact_form.php:299 contact_form.php:1438 contact_form.php:1731
+#: contact_form.php:1769 contact_form.php:2031 contact_form.php:3156
+#: contact_form.php:3199
+msgid "Subject"
+msgstr "Тема"
+
+#: contact_form.php:298 contact_form.php:1422 contact_form.php:1730
+#: contact_form.php:1768
+msgid "Phone number"
+msgstr "Номер телефону"
+
+#: contact_form.php:1416
+msgid "Use User's email as a default value if the user is logged in."
+msgstr "Після входу на сайт, використовувати еmail користувача, як значення за замовчуванням."
+
+#: contact_form.php:297 contact_form.php:1399 contact_form.php:1729
+#: contact_form.php:1767
+msgid "Email Address"
+msgstr "Email"
+
+#: contact_form.php:296 contact_form.php:1383 contact_form.php:1728
+#: contact_form.php:1766 contact_form.php:2016 contact_form.php:3145
+#: contact_form.php:3190
+msgid "Address"
+msgstr "Адреса"
+
+#: contact_form.php:1363
+msgid "Location selectbox"
+msgstr "Список розміщень"
+
+#: contact_form.php:1357 contact_form.php:1417
+msgid "'Visible' and 'Disabled for editing' options will be applied only to logged-in users."
+msgstr "Опції 'Видимий' та 'Заборонено для редагування' будуть застосовуватись тільки для авторизованих користувачів."
+
+#: contact_form.php:1356
+msgid "Use User's name as a default value if the user is logged in."
+msgstr "Після входу на сайт використовувати ім'я користувача, як значення за замовчуванням."
+
+#: contact_form.php:1324
+msgid "Department selectbox"
+msgstr "Список відділень"
+
+#: contact_form.php:1317 contact_form.php:1376 contact_form.php:1455
+#: contact_form.php:1479
+msgid "Field's default value"
+msgstr "Стандартне значення поля"
+
+#: contact_form.php:1316 contact_form.php:1352 contact_form.php:1412
+#: contact_form.php:1451 contact_form.php:1475
+msgid "Disabled for editing"
+msgstr "Заборонити для редагування"
+
+#: contact_form.php:1315 contact_form.php:1348 contact_form.php:1408
+#: contact_form.php:1447 contact_form.php:1471
+msgid "Visible"
+msgstr "Видимий"
+
+#: contact_form.php:1313 contact_form.php:1328 contact_form.php:1343
+#: contact_form.php:1370 contact_form.php:1390 contact_form.php:1403
+#: contact_form.php:1429 contact_form.php:1442 contact_form.php:1466
+msgid "Required"
+msgstr "Обов'язковий"
+
+#: contact_form.php:1312 contact_form.php:1339 contact_form.php:1366
+#: contact_form.php:1386 contact_form.php:1425 contact_form.php:1507
+msgid "Used"
+msgstr "Використовується"
+
+#: contact_form.php:1311
+msgid "Fields"
+msgstr "Поля"
+
+#: contact_form.php:1301
+msgid "Required symbol"
+msgstr "Обов'язковий символ"
+
+#: contact_form.php:1292
+msgid "If this option is changed, email messages may be moved to the spam folder or email delivery failures may occur."
+msgstr "Зміна цих налаштувань може призвести до того, що ваші листи не будуть доставлені або потраплять до папки Спам."
+
+#: contact_form.php:1283
+msgid "The email address of the user who fills the form will be used in the field 'From'."
+msgstr "Email користувача, який заповнює форму, буде використано у полі \"Від\"."
+
+#: contact_form.php:1281
+msgid "User email"
+msgstr "Email користувача"
+
+#: contact_form.php:1270 contact_form.php:3151 contact_form.php:3195
+msgid "Email"
+msgstr "Email"
+
+#: contact_form.php:1259
+msgid "The name of the user who fills the form will be used in the field 'From'."
+msgstr "Ім’я користувача, який заповнює форму, буде використано у полі \"Від\"."
+
+#: contact_form.php:1257
+msgid "User name"
+msgstr "Ім’я користувача"
+
+#: contact_form.php:295 contact_form.php:1246 contact_form.php:1336
+#: contact_form.php:1727 contact_form.php:1765 contact_form.php:2011
+#: contact_form.php:3138 contact_form.php:3184
+msgid "Name"
+msgstr "Ім'я"
+
+#: contact_form.php:1241
+msgid "'FROM' field"
+msgstr "Поле \"Від\""
+
+#: contact_form.php:1234
+msgid "Mail"
+msgstr "Mail"
+
+#: contact_form.php:1236
+msgid "You can use the PHP mail function for mailing"
+msgstr "Для відправлення повідомлень ви можете використовувати PHP функцію mail"
+
+#: contact_form.php:1229
+msgid "Wp-mail"
+msgstr "Wp-mail"
+
+#: contact_form.php:1212 contact_form.php:1567 contact_form.php:1607
+#: contact_form.php:1640
+msgid "Download"
+msgstr "Завантажити"
+
+#: contact_form.php:1190 contact_form.php:1204 contact_form.php:1211
+msgid "Using"
+msgstr "Використовуючи"
+
+#: contact_form.php:1178
+msgid "Save emails to the database"
+msgstr "Зберігати email у базі даних"
+
+#: contact_form.php:1163 contact_form.php:1656 contact_form.php:1873
+#: contact_form.php:2145
+msgid "If you upgrade to Pro version all your settings will be saved."
+msgstr "Якщо ви перейдете на Pro версію, всі налаштування будуть збережені."
+
+#: contact_form.php:1155
+msgid "Add department selectbox to the contact form"
+msgstr "Додати поле для вибору департаменту до контактної форми"
+
+#: contact_form.php:1140
+msgid "Use this email address"
+msgstr "Використовувати цей email"
+
+#: contact_form.php:1136
+msgid "Select a username of the person who should get the messages from the contact form."
+msgstr "Виберіть ім'я користувача, що має отримати повідомлення з контактної форми."
+
+#: contact_form.php:1123
+msgid "Select a username"
+msgstr "Виберіть ім'я користувача"
+
+#: contact_form.php:1119
+msgid "The user's email address"
+msgstr "Email-адреса користувача"
+
+#: contact_form.php:1116
+msgid "If you leave the fields empty, the messages will be sent to the email address specified during registration."
+msgstr "Якщо Ви залишите поля порожніми, повідомлення буде надіслано на email-адресу, вказану під час реєстрації."
+
+#: contact_form.php:2376
+msgid "If you would like to add the Contact Form to your website, just copy and paste this shortcode to your post or page or widget"
+msgstr "Якщо Ви хочете додати контактну форму на свій сайт, просто скопіюйте і вставте цей шорткод в вашу сторінку, запис чи віджет"
+
+#: contact_form.php:1092
+msgid "If you want to create multiple contact forms, please install the Contact Form Multi plugin."
+msgstr "Якщо ви хочете створити декілька різних контактних форм, будь ласка, встановіть плагін Contact Form Multi."
+
+#: contact_form.php:1076
+msgid "Go PRO"
+msgstr "Перейти на Pro версію"
+
+#: bws_menu/bws_functions.php:921 contact_form.php:3391
+msgid "FAQ"
+msgstr "FAQ"
+
+#: contact_form.php:1074
+msgid "Appearance"
+msgstr "Відображення"
+
+#: contact_form.php:1073
+msgid "Additional settings"
+msgstr "Додаткові налаштування"
+
+#: bws_menu/class-bws-settings.php:281 contact_form.php:1063
+msgid "All plugin settings were restored."
+msgstr "Усі налаштування плагіну відновлені."
+
+#: contact_form.php:1025
+msgid "Settings are not saved."
+msgstr "Налаштування не збережено."
+
+#: contact_form.php:761 contact_form.php:1023
+msgid "Settings saved."
+msgstr "Налаштування збережено."
+
+#: contact_form.php:1003
+msgid "Please enter a valid email address in the 'FROM' field."
+msgstr "Будь ласка, введіть коректну email-адресу у полі \"Від\"."
+
+#: contact_form.php:995
+msgid "Please enter a valid email address in the 'Use this email address' field."
+msgstr "Будь ласка, введіть коректну email-адресу у поле 'Використовувати цей email'."
+
+#: contact_form.php:985
+msgid "Such user does not exist."
+msgstr "Такого користувача не існує."
+
+#: contact_form.php:978
+msgid "If the 'Redirect to page' option is selected then the URL field should be in the following format"
+msgstr "Якщо увімкнена опція \"Перенаправлення на сторінку\", то поле URL повинне бути заповнене в наступному форматі"
+
+#: contact_form.php:968
+msgid "Email 'FROM' field option was changed, which may cause email messages being moved to the spam folder or email delivery failures."
+msgstr "Налаштування поля email \"Від\" змінено, що може призвести до того, що ваші повідомлення не будуть доставлені або потраплять до папки Спам."
+
+#: contact_form.php:316
+msgid "Please make corrections below and try again."
+msgstr "Будь ласка, внесіть поправки у виділені поля і спробуйте знову."
+
+#: contact_form.php:315
+msgid "Please fill out the CAPTCHA."
+msgstr "Будь ласка, введіть CAPTCHA."
+
+#: contact_form.php:314
+msgid "This file is too large."
+msgstr "Файл занадто великий."
+
+#: contact_form.php:313
+msgid "The file could not be uploaded."
+msgstr "Неможна завантажити файл."
+
+#: contact_form.php:312
+msgid "File upload error."
+msgstr "Помилка завантаження файлу."
+
+#: contact_form.php:311
+msgid "File format is not valid."
+msgstr "Некоректний формат файлу."
+
+#: contact_form.php:310
+msgid "Message text is required."
+msgstr "Повідомлення не може бути порожнім."
+
+#: contact_form.php:309
+msgid "Subject is required."
+msgstr "Необхідно вказати тему."
+
+#: contact_form.php:308
+msgid "Phone number is required."
+msgstr "Необхідно вказати номер телефону."
+
+#: contact_form.php:307
+msgid "A valid email address is required."
+msgstr "Необхідно вказати коректну email-адресу."
+
+#: contact_form.php:306
+msgid "Address is required."
+msgstr "Необхідно вказати свою адресу"
+
+#: contact_form.php:305
+msgid "Your name is required."
+msgstr "Необхідно вказати своє ім'я."
+
+#: contact_form.php:304 contact_form.php:1736 contact_form.php:1774
+msgid "Submit"
+msgstr "Підтвердити"
+
+#: contact_form.php:303 contact_form.php:1735 contact_form.php:1773
+msgid "Send me a copy"
+msgstr "Надіслати мені копію"
+
+#: contact_form.php:302
+msgid "Supported file types: HTML, TXT, CSS, GIF, PNG, JPEG, JPG, TIFF, BMP, AI, EPS, PS, CSV, RTF, PDF, DOC, DOCX, XLS, XLSX, ZIP, RAR, WAV, MP3, PPT."
+msgstr "Типи файлів, що підтримуються: HTML, TXT, CSS, GIF, PNG, JPEG, JPG, TIFF, BMP, AI, EPS, PS, CSV, RTF, PDF, DOC, DOCX, XLS, XLSX, ZIP, RAR, WAV, MP3, PPT."
+
+#: contact_form.php:42
+msgid "Contact Form"
+msgstr "Contact Form"
+
+#: contact_form.php:42 contact_form.php:1066
+msgid "Contact Form Settings"
+msgstr "Налаштування Contact Form"
+
+#: bws_menu/bws_menu.php:673
+msgid "Send to custom email &#187;"
+msgstr "Відправити на електронну адресу &#187;"
+
+#: bws_menu/bws_menu.php:666
+msgid "Send to support"
+msgstr "Відправити службі тех. підтримки"
+
+#: bws_menu/bws_menu.php:237
+msgid "Inactive Plugins"
+msgstr "Не активні плагіни"
+
+#: bws_menu/bws_menu.php:232
+msgid "Active Plugins"
+msgstr "Активні плагіни"
+
+#: bws_menu/bws_menu.php:646
+msgid "Already Installed"
+msgstr "Вже встановлено"
+
+#: bws_menu/bws_menu.php:619 bws_menu/bws_menu.php:639
+msgid "By %s"
+msgstr "За %s"
+
+#: bws_menu/bws_menu.php:623
+msgctxt "theme"
+msgid "Installed"
+msgstr "Встановлена"
+
+#: bws_menu/bws_menu.php:623
+msgid "This theme is already installed and is up to date"
+msgstr "Цю тему вже встановлено та оновлено"
+
+#: bws_menu/bws_menu.php:541 bws_menu/bws_menu.php:564
+#: bws_menu/bws_menu.php:573
+msgid "Install Now"
+msgstr "Встановити"
+
+#: bws_menu/bws_menu.php:561 bws_menu/bws_menu.php:570
+msgid "Activate this plugin"
+msgstr "Активувати плагін"
+
+#: bws_menu/bws_functions.php:209 bws_menu/bws_functions.php:242
+#: bws_menu/bws_menu.php:555 bws_menu/bws_menu.php:557 contact_form.php:1072
+#: contact_form.php:3376 contact_form.php:3390
+msgid "Settings"
+msgstr "Налаштування"
+
+#: bws_menu/product_list.php:10
+msgid "Recommended"
+msgstr "Рекомендовані "
+
+#: bws_menu/bws_menu.php:448 bws_menu/bws_menu.php:648
+msgid "Installed"
+msgstr "Встановлені"
+
+#: bws_menu/bws_menu.php:447 bws_menu/bws_menu.php:462
+#: bws_menu/bws_menu.php:591
+msgid "All"
+msgstr "Всі"
+
+#: bws_menu/bws_menu.php:306 bws_menu/bws_menu.php:310
+#: bws_menu/bws_menu.php:609 bws_menu/deprecated.php:92
+msgid "Themes"
+msgstr "Теми"
+
+#: bws_menu/bws_menu.php:305 bws_menu/bws_menu.php:309
+#: bws_menu/bws_menu.php:358 bws_menu/deprecated.php:91
+msgid "Plugins"
+msgstr "Плагіни"
+
+#: bws_menu/bws_menu.php:307 bws_menu/bws_menu.php:311
+#: bws_menu/bws_menu.php:660
+msgid "System status"
+msgstr "Системна інформація"
+
+#: bws_menu/class-bws-settings.php:1032
+msgid "Need Help?"
+msgstr "Потрібна допомога?"
+
+#: bws_menu/bws_menu.php:289 contact_form.php:2504
+msgid "Sorry, email message could not be delivered."
+msgstr "Вибачте, ваше емейл не може бути доставлено"
+
+#: bws_menu/bws_menu.php:266 contact_form.php:318
+msgid "Thank you for contacting us."
+msgstr "Дякуємо, що звернулись до нас."
+
+#: bws_menu/bws_menu.php:262
+msgid "Email with system info is sent to"
+msgstr "Емейл з системною інформацією надіслано на"
+
+#: bws_menu/bws_menu.php:258
+msgid "Please enter a valid email address."
+msgstr "Будь ласка, введіть коректний емейл."
+
+#: bws_menu/bws_menu.php:201
+msgid "Active Theme"
+msgstr "Активна тема"
+
+#: bws_menu/bws_menu.php:196
+msgid "Home URL"
+msgstr "Адреса домашньої сторінки"
+
+#: bws_menu/bws_menu.php:218
+msgid "PHP XML support"
+msgstr "Підтримка PHP XML"
+
+#: bws_menu/bws_menu.php:217
+msgid "PHP IPTC support"
+msgstr "Підтримка PHP IPTC"
+
+#: bws_menu/bws_menu.php:216
+msgid "PHP Exif support"
+msgstr "Підтримка PHP Exif"
+
+#: bws_menu/bws_menu.php:215
+msgid "PHP Max Script Execute Time"
+msgstr "Макс. час виконання сценарію"
+
+#: bws_menu/bws_menu.php:214
+msgid "PHP Max Post Size"
+msgstr "Макс. розмір посту"
+
+#: bws_menu/bws_menu.php:213
+msgid "PHP Max Upload Size"
+msgstr "Макс. розмір файлу, що завантажується"
+
+#: bws_menu/bws_menu.php:211
+msgid "PHP Memory Limit"
+msgstr "Ліміт пам’яті"
+
+#: bws_menu/bws_menu.php:210
+msgid "PHP Allow URL fopen"
+msgstr "Дозволити PHP URL fopen"
+
+#: bws_menu/bws_menu.php:209
+msgid "PHP Version"
+msgstr "Версія PHP"
+
+#: bws_menu/bws_menu.php:228
+msgid "SQL Mode"
+msgstr "Режим SQL"
+
+#: bws_menu/bws_menu.php:227
+msgid "MySQL version"
+msgstr "Версія MYSQL"
+
+#: bws_menu/bws_menu.php:212
+msgid "Memory Usage"
+msgstr "Використання пам'яті"
+
+#: bws_menu/bws_menu.php:208
+msgid "Server"
+msgstr "Тип серверу"
+
+#: bws_menu/bws_menu.php:207
+msgid "Operating System"
+msgstr "Операційна система"
+
+#: bws_menu/bws_menu.php:181 bws_menu/bws_menu.php:182
+#: bws_menu/bws_menu.php:183 bws_menu/bws_menu.php:187
+msgid "No"
+msgstr "Ні"
+
+#: bws_menu/bws_menu.php:181 bws_menu/bws_menu.php:182
+#: bws_menu/bws_menu.php:183 bws_menu/bws_menu.php:187
+msgid "Yes"
+msgstr "Так"
+
+#: bws_menu/bws_menu.php:180
+msgid " Mb"
+msgstr "Мб"
+
+#: bws_menu/bws_menu.php:175 bws_menu/bws_menu.php:176
+#: bws_menu/bws_menu.php:177 bws_menu/bws_menu.php:178
+#: bws_menu/bws_menu.php:179 bws_menu/bws_menu.php:180
+#: bws_menu/bws_menu.php:189
+msgid "N/A"
+msgstr "Невідомо"
+
+#: bws_menu/bws_menu.php:174
+msgid "Off"
+msgstr "Вимк."
+
+#: bws_menu/bws_menu.php:174
+msgid "On"
+msgstr "Увімк."
+
+#: bws_menu/bws_menu.php:172
+msgid "Not set"
+msgstr "Не задано"
+
+#: bws_menu/bws_functions.php:861
+msgid "Insert"
+msgstr "Вставити"
+
+#: bws_menu/bws_functions.php:856
+msgid "The shortcode will be inserted"
+msgstr "Буде вставлено шорткод"
+
+#: bws_menu/bws_functions.php:851
+msgid "Shortcode settings"
+msgstr "Налаштування шорткоду"
+
+#: bws_menu/bws_functions.php:842
+msgid "Plugin"
+msgstr "Плагін"
+
+#: bws_menu/bws_functions.php:796
+msgid "No, go back to the settings page"
+msgstr "Ні, повернутись назад на сторінку налаштувань"
+
+#: bws_menu/bws_functions.php:795
+msgid "Yes, restore all settings"
+msgstr "Так, скинути налаштування"
+
+#: bws_menu/deprecated.php:480
+msgid "Restore settings"
+msgstr "Скинути налаштування"
+
+#: bws_menu/deprecated.php:478
+msgid "Restore all plugin settings to defaults"
+msgstr "Скинути налаштування плагіну до стандартних"
+
+#: bws_menu/bws_functions.php:700 contact_form.php:1151 contact_form.php:1647
+#: contact_form.php:1854 contact_form.php:1939 contact_form.php:3471
+msgid "Close"
+msgstr "Закрити"
+
+#: bws_menu/bws_functions.php:631
+msgid "Add BWS Shortcode"
+msgstr "Додати шорткод BWS "
+
+#: bws_menu/bws_functions.php:216 bws_menu/bws_functions.php:226
+#: bws_menu/bws_functions.php:330 bws_menu/bws_functions.php:378
+#: bws_menu/bws_functions.php:482 contact_form.php:3693
+msgid "Close notice"
+msgstr "Закрити"
+
+#: bws_menu/bws_functions.php:212 bws_menu/bws_functions.php:244
+msgid "Add New"
+msgstr "Додати"
+
+#: bws_menu/bws_functions.php:208
+msgid "Let's get started"
+msgstr "Розпочнемо"
+
+#: bws_menu/bws_functions.php:207
+msgid "Thank you for installing"
+msgstr "Дякуємо, що встановили"
+
+#: bws_menu/bws_functions.php:169
+msgid "The Pro Trial license will expire on"
+msgstr "Trial період Pro версії плагіну закінчується"
+
+#: bws_menu/bws_functions.php:166
+msgid "Notice: You are using the Pro Trial license of plugin."
+msgstr "Увага: Ви використовуєте тріал Pro версію плагіну."
+
+#: bws_menu/bws_functions.php:164
+msgid "Notice: You are using the Pro Trial license of %s plugin."
+msgstr "Увага: Ви використовуєте тріал Pro версію плагіну %s."
+
+#: bws_menu/bws_functions.php:146 bws_menu/bws_functions.php:382
+#: bws_menu/deprecated.php:584 contact_form.php:3467
+msgid "Learn more"
+msgstr "Дізнатись більше"
+
+#: bws_menu/bws_functions.php:146
+msgid "Your license has expired. To continue getting top-priority support and plugin updates, you should extend it."
+msgstr "Строк вашої ліцензії витік. Якщо ви хочете отримувати першочергову технічну підтримку та оновлювати плагін у майбутньому, вам слід подовжити ліцензію."
+
+#: bws_menu/bws_functions.php:144
+msgid "Notice: Your Pro Trial license has expired. To continue using the plugin, you should buy a Pro license"
+msgstr "Увага: Термін дії Pro Trial версії плагіну скінчився. Щоб продовжити користуватись плагіном, будь ласка, придбайте Pro ліцензію"
+
+#: bws_menu/bws_functions.php:127
+msgid "You can use one license of the Pro plugin for one domain only. Please check and edit your license or domain if necessary using you personal Client Area. We strongly recommend you to solve the problem within 24 hours, otherwise the Pro plugin will be deactivated."
+msgstr "Ви можете використовувати одну ліцензію Про-плагіну для одного домену. Будь ласка, переконайтесь, що інформацію щодо ліцензії і домену введено вірно, у вкладці Client Area. Ми настійливо рекомендуємо Вам вирішити це питання протягом 24 годин, інакше плагін буде деактивовано."
+
+#: bws_menu/bws_functions.php:127
+msgid "WARNING: Illegal use notification"
+msgstr "УВАГА: виявлено несанкціоноване використання плагіну"
+
+#: bws_menu/bws_menu.php:334 bws_menu/bws_menu.php:345
+#: bws_menu/class-bws-settings.php:738 bws_menu/deprecated.php:227
+msgid "Check license key"
+msgstr "Перевірте ліцензійний ключ"
+
+#: bws_menu/deprecated.php:223
+msgid "(your username is the email address specified during the purchase). If necessary, please submit \"Lost your password?\" request."
+msgstr "(ваше ім'я користувача - це емейл, який ви вказували при купівлі). При необхідності, будь ласка, відправте запит на відновлення вашого паролю."
+
+#: bws_menu/deprecated.php:223
+msgid "If necessary, you can check if the license key is correct or reenter it in the field below. You can find your license key on your personal page - Client Area - on our website"
+msgstr "При необхідності ви можете перевірити правильність вашого ліцензійного ключа або знову ввести його у полі, що знаходиться нижче. Ви можете знайти свій ліцензійний ключ на вашій персональній сторінці - Client area - на нашому сайті"
+
+#: bws_menu/deprecated.php:204
+msgid "Please, enter your license key"
+msgstr "Будь ласка, введіть ваш ліцензійний ключ"
+
+#: bws_menu/bws_menu.php:142 bws_menu/class-bws-settings.php:820
+#: bws_menu/deprecated.php:156
+msgid "Your license will expire on"
+msgstr "Ваша ліцензія закінчується"
+
+#: bws_menu/bws_menu.php:140 bws_menu/class-bws-settings.php:817
+#: bws_menu/deprecated.php:153
+msgid "The license key is valid."
+msgstr "Ліцензійний ключ дійсний."
+
+#: bws_menu/class-bws-settings.php:815 bws_menu/deprecated.php:151
+msgid "The Pro Trial license key is valid."
+msgstr "Ключ тріал Pro версії вірний."
+
+#: bws_menu/class-bws-settings.php:810 bws_menu/deprecated.php:147
+msgid "Unfortunately, the Pro Trial licence was already installed to this domain. The Pro Trial license can be installed only once."
+msgstr "На жаль, Trial Pro версія плагіну уже встановлювалась на цей домен. Trial Pro версію можна встановлювати лише один раз."
+
+#: bws_menu/class-bws-settings.php:808 bws_menu/deprecated.php:145
+msgid "Unfortunately, you have exceeded the number of available tries."
+msgstr "На жаль, ви перевищили кількість допустимих спроб."
+
+#: bws_menu/class-bws-settings.php:806 bws_menu/deprecated.php:143
+msgid "This license key is valid, but Your license has expired. If you want to update our plugin in future, you should extend the license."
+msgstr "Даний ліцензійний ключ дійсний, але строк вашої ліцензії витік. Якщо ви хочете оновлювати наш плагін у майбутньому, вам слід подовжити ліцензію."
+
+#: bws_menu/class-bws-settings.php:804 bws_menu/class-bws-settings.php:907
+#: bws_menu/deprecated.php:141 bws_menu/deprecated.php:360
+msgid "This license key is bound to another site."
+msgstr "Цей ліцензійний ключ прив'язано до іншого сайту."
+
+#: bws_menu/bws_menu.php:126 bws_menu/class-bws-settings.php:802
+#: bws_menu/class-bws-settings.php:905 bws_menu/deprecated.php:139
+#: bws_menu/deprecated.php:358
+msgid "Wrong license key."
+msgstr "Неправильний ліцензійний ключ."
+
+#: bws_menu/bws_menu.php:130 bws_menu/bws_menu.php:332
+#: bws_menu/deprecated.php:261
+msgid "Unfortunately, you have exceeded the number of available tries per day."
+msgstr "На жаль, ви перевищили кількість допустимих спроб."
+
+#: bws_menu/deprecated.php:247
+msgid "After that, you can activate it by entering your license key."
+msgstr "Після цього ви зможете активувати його ввівши ліцензійний ключ."
+
+#: bws_menu/class-bws-settings.php:823 bws_menu/deprecated.php:159
+#: bws_menu/deprecated.php:246
+msgid "In order to continue using the plugin it is necessary to buy a %s license."
+msgstr "Щоб продовжити користуватись плагіном, потрібно придбати %s ліцензію."
+
+#: bws_menu/bws_menu.php:343 bws_menu/bws_menu.php:561
+#: bws_menu/bws_menu.php:570 bws_menu/class-bws-settings.php:717
+#: bws_menu/deprecated.php:259 bws_menu/deprecated.php:267
+#: bws_menu/deprecated.php:629 bws_menu/deprecated.php:700
+#: bws_menu/deprecated.php:709 contact_form.php:1205 contact_form.php:1558
+#: contact_form.php:1601 contact_form.php:1635
+msgid "Activate"
+msgstr "Активувати"
+
+#: bws_menu/class-bws-settings.php:725 bws_menu/deprecated.php:694
+msgid "Start Your Free %s-Day Trial Now"
+msgstr "Спробуйте %s-денну Trial версію безкоштовно"
+
+#: bws_menu/bws_functions.php:211 bws_menu/bws_menu.php:326
+#: bws_menu/class-bws-settings.php:725 bws_menu/class-bws-settings.php:1038
+#: bws_menu/class-bws-settings.php:1048 bws_menu/deprecated.php:694
+msgid "or"
+msgstr "або"
+
+#: bws_menu/deprecated.php:281 bws_menu/deprecated.php:670
+msgid "You will be redirected automatically in 5 seconds."
+msgstr "Вас буде перенаправлено автоматично через 5 секунд."
+
+#: bws_menu/deprecated.php:280 bws_menu/deprecated.php:669
+msgid "the setting page"
+msgstr "сторінку установок"
+
+#: bws_menu/deprecated.php:280 bws_menu/deprecated.php:669
+msgid "Please, go to"
+msgstr "Будь ласка, перейдіть на"
+
+#: bws_menu/class-bws-settings.php:1020 bws_menu/deprecated.php:463
+msgid "Please, enter Your license key"
+msgstr "Будь ласка, впишіть ваш ліцензійний ключ"
+
+#: bws_menu/bws_menu.php:151 bws_menu/class-bws-settings.php:985
+#: bws_menu/deprecated.php:435
+msgid "Something went wrong. Try again later or upload the plugin manually. We are sorry for inconvenience."
+msgstr "Виникли певні проблеми. Спробуйте ще раз пізніше або завантажте плагін вручну. Просимо вибачення за незручності."
+
+#: bws_menu/bws_menu.php:432 bws_menu/class-bws-settings.php:962
+#: bws_menu/deprecated.php:412
+msgid "UploadDir is not writable. Please, upload the plugin manually"
+msgstr "Немає доступу до теки завантажень WordPress. Будь ласка, завантажте плагін вручну"
+
+#: bws_menu/bws_menu.php:422 bws_menu/class-bws-settings.php:955
+#: bws_menu/deprecated.php:405
+msgid "Your server does not support either ZipArchive or Phar. Please, upload the plugin manually"
+msgstr "Ваш сервер не підтримує формати Zip і Phar. Будь ласка, завантажте плагін вручну"
+
+#: bws_menu/bws_menu.php:415 bws_menu/class-bws-settings.php:949
+#: bws_menu/deprecated.php:399
+msgid "Failed to open the zip archive. Please, upload the plugin manually"
+msgstr "Помилка при відкритті zip-архіву. Будь ласка, завантажте плагін вручну"
+
+#: bws_menu/bws_menu.php:398 bws_menu/bws_menu.php:429
+#: bws_menu/bws_menu.php:440 bws_menu/class-bws-settings.php:937
+#: bws_menu/class-bws-settings.php:959 bws_menu/class-bws-settings.php:981
+#: bws_menu/deprecated.php:387 bws_menu/deprecated.php:409
+#: bws_menu/deprecated.php:431
+msgid "Failed to download the zip archive. Please, upload the plugin manually"
+msgstr "Помилка при завантаженні zip-архіву. Будь ласка, завантажте плагін вручну"
+
+#: bws_menu/bws_menu.php:134 bws_menu/class-bws-settings.php:913
+#: bws_menu/deprecated.php:366
+msgid "Unfortunately, the Pro licence was already installed to this domain. The Pro Trial license can be installed only once."
+msgstr "На жаль, Pro ліцензія уже використовувалась на цьому домені.  Тріал Pro версії плагіну можна використати лише один раз."
+
+#: bws_menu/bws_menu.php:132 bws_menu/class-bws-settings.php:911
+#: bws_menu/deprecated.php:364
+msgid "Unfortunately, Your license has expired. To continue getting top-priority support and plugin updates, you should extend it in your %s"
+msgstr "На жаль, ваша ліцензія скінчилась. Для того, щоб і надалі отримувати першочергову техпідтримку і оновлення, будь ласка, продовжте ліцензію на  %s"
+
+#: bws_menu/class-bws-settings.php:722 bws_menu/class-bws-settings.php:909
+#: bws_menu/deprecated.php:362 bws_menu/deprecated.php:703
+msgid "Unfortunately, you have exceeded the number of available tries per day. Please, upload the plugin manually."
+msgstr "На жаль, ви перевищили кількість доступних спроб на день. Будь ласка, завантажте плагін вручну"
+
+#: bws_menu/bws_menu.php:120 bws_menu/class-bws-settings.php:796
+#: bws_menu/class-bws-settings.php:863 bws_menu/class-bws-settings.php:899
+#: bws_menu/deprecated.php:133 bws_menu/deprecated.php:199
+#: bws_menu/deprecated.php:352
+msgid "We are sorry for inconvenience."
+msgstr "Просимо вибачення за незручності."
+
+#: bws_menu/bws_menu.php:120 bws_menu/class-bws-settings.php:796
+#: bws_menu/class-bws-settings.php:863 bws_menu/class-bws-settings.php:899
+#: bws_menu/deprecated.php:133 bws_menu/deprecated.php:199
+#: bws_menu/deprecated.php:352
+msgid "Something went wrong. Please try again later. If the error appears again, please contact us"
+msgstr "Щось не так, спробуйте пізніше. Якщо помилка повториться, будь ласка, повідомте нам"
+
+#: bws_menu/bws_menu.php:99 bws_menu/class-bws-settings.php:770
+#: bws_menu/deprecated.php:322
+msgid "Wrong license key"
+msgstr "Невірний ключ ліцензії"
+
+#: bws_menu/bws_functions.php:127 bws_menu/bws_functions.php:339
+#: bws_menu/bws_menu.php:625 bws_menu/bws_menu.php:642
+#: bws_menu/class-bws-settings.php:142 contact_form.php:3702
+msgid "Learn More"
+msgstr "Дізнатись більше"
+
+#: bws_menu/bws_functions.php:336
+msgid "Extend standard plugin functionality with new great options."
+msgstr "Розширює можливості стандартного функціоналу плагіна."
+
+#: bws_menu/bws_functions.php:335
+msgid "version!"
+msgstr "версії!"
+
+#: bws_menu/bws_functions.php:335
+msgid "to"
+msgstr "до"
+
+#: bws_menu/bws_functions.php:335
+msgid "It’s time to upgrade your"
+msgstr "Настав час модернізувати Ваш"
+
+#: bws_menu/bws_functions.php:77
+msgid "Plugins page"
+msgstr "Сторінку Плагінів"
+
+#: bws_menu/bws_functions.php:75
+msgid "Back to the WordPress"
+msgstr "Повернутися на WordPress на"
+
+#: bws_menu/bws_functions.php:74
+msgid "or higher, that is why it has been deactivated! Please upgrade WordPress and try again."
+msgstr "чи вище, тому його було деактивовано! Будь ласка оновіть WordPress та спробуйте ще раз."
+
+#: bws_menu/bws_functions.php:72 bws_menu/bws_functions.php:190
+msgid "requires"
+msgstr "потребує"

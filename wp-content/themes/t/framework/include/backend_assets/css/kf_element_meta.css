@@ -1,0 +1,157 @@
+/* Text Field */
+.kode-option-input input[type="text"].kode-upload-box-input{
+	width: 80%;
+	padding: 7px;
+	background-color: #ffffff;
+	color: #555555;
+	margin-right: 8px;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	float: left;
+}
+
+/* Upload Button */
+.kode-option-input input[type="button"].kode-upload-box-button{
+	margin: 0px 0px;
+	float: left;
+}
+a.kdf-button, .kdf-button{
+	display: inline-block;
+	cursor: pointer;
+	color: #fff;
+	font-weight: bold; 
+	border:none;
+	padding:8px 20px;
+	background:#0074A2;
+}
+/* Radio Button */
+.kode-option-input .radio-image-wrapper{
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin-right: 12px;
+	margin-bottom: 12px;
+}
+.kode-option-input .radio-image-wrapper img{
+	display: inline-block;
+	pointer-events: none;
+}
+.kode-option-input .radio-image-wrapper input[type="radio"]{
+	display: none;
+}
+.kode-option-input .radio-image-wrapper .selected-radio{
+	width: 16px; 
+	height: 16px;
+	position: absolute;
+	right: 8px;
+	bottom: 12px;
+	display: none;
+	background: url('../images/admin-panel/radio-selected.png');
+}
+.kode-option-input .radio-image-wrapper.active .selected-radio{
+	display: block;
+}
+/*--- checkbox ---*/
+.kode-option-input .checkbox-wrapper input[type="checkbox"]{
+	display: none;
+}
+.kode-option-input .checkbox-wrapper .checkbox-appearance{
+	width: 100px;
+	height: 44px; 
+	background: url('../images/admin-panel/checkbox-switch-off_new.png');
+}
+.kode-option-input .checkbox-wrapper .checkbox-appearance.enable{
+	background: url('../images/admin-panel/checkbox-switch-on_new.png');
+}	
+
+
+/*--- combobox ---*/
+.chosen-container{
+	width:250px !important
+}
+.chosen-container-single .chosen-single{
+	line-height:31px !important;
+	height:33px !important;
+}
+
+/*--- input text / text area ---*/
+.kode-option-input input[type="text"].kdf-text-input{
+	width: 100%;
+	padding: 7px;
+	background-color: #ffffff;
+	color: #555555;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+}
+.kode-txt-area .kode-option-input textarea{
+	height:34px;	
+}
+.kode-option-input textarea{
+	width: 100%;
+	height: 100px;
+	padding: 7px;
+	background-color: #ffffff;
+	color: #555555;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+}
+.kode-option-input textarea.full-width{
+	width: 100%;
+	height: 200px;
+}
+.kode-sliderbar-text-hidden{
+	display:none;
+}
+.kode-option-input  .ui-slider-horizontal{
+	height:1.2em;
+}
+.kode-option-input  .ui-slider .ui-slider-handle{
+	height:1.7em;
+	width:1.9em;
+}
+.kode-sliderbar.ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all{
+	float:left;
+	width:86%;
+	margin-right:10px;
+	background:#0374A3;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+	background:#666;
+	border:none;
+}
+.kode-sliderbar-text {
+    background: ghostwhite none repeat scroll 0 0;
+    color: #000;
+    float: left;
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 10px;
+	margin-top:-12px;
+}
+.kode-sample-font {
+    background: #eee none repeat scroll 0 0;
+    border: medium none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    width: 248px;
+}
+.kode-option-input .radio-image-wrapper img{
+	width:100%;
+}
+.kode-option-input .radio-image-wrapper{
+	width:113px;
+}
+#font-family .kode-option-input .kode-sample-font{
+
+}
+#font-family .kode-option-input{
+	width:620px;
+}
+.kode-sample-font{
+	float:right;
+}

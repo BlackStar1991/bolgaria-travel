@@ -1,0 +1,201 @@
+/* KodeForest Theme Option Panel */
+
+/* Html Structure of Theme Option panel*/
+.kode-admin-panel-wrapper{
+    background: #fff;
+	float: none;
+    text-align: center;
+    width: 97.5%;
+	margin:0 auto;
+}
+.kode-admin-nav-wrapper {
+	background:#333;
+	float:left;    
+	width:100%;
+}
+.admin-menu {
+    float:left;
+	margin:0px;
+	padding:0px;
+}
+.admin-menu li{
+	padding:0px;
+	margin:0px;
+   color: #fff;
+   float:left;
+   cursor:pointer;
+}
+
+.admin-sub-menu  li{
+	cursor:pointer;
+}
+.now-loading{
+	opacity:0;
+	position:absolute;
+	left:2%;
+}
+.kode-admin-head{
+	float:left;
+	padding:17px 10px;
+	width:200px;
+}
+.kode-admin-head > a > img{
+	width:80px;
+}
+.kode-admin-head.kode-admin-save-btn{
+	width:auto;
+	float:right;
+	margin-top:15px;
+}
+.menu-title{
+	background:#444;
+	padding:18px;
+	border:1px solid #555;
+}
+.menu-title i{
+	display:block;
+	font-size:36px;
+	margin-bottom:10px;
+}
+.overall-elements-wrapper .menu-title > span{
+	margin-left:10px;
+	display:block;
+}
+.default-sidebar-item{
+	display:none;
+}
+.sidebar-default-k{
+	width:100%;
+	display:inline-block;
+	text-align:center;
+}
+.panel-delete-sidebar{
+	position:relative;
+	float:left;
+	font-size:16px;
+	color:#fff;
+	cursor:pointer;
+}
+
+.panel-delete-sidebar:before{
+	content: "\f00d";
+	font-family: "fontawesome";
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+.sidebar-item{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	padding:15px;
+	width:80%;
+	display:inline-block;
+	margin: 0 auto;
+	background:#333;
+	color:#fff;
+	margin-bottom:15px;
+	transition: all 3s ease-in-out;
+	-moz-transition: all 3s ease-in-out;
+	-webkit-transition: all 3s ease-in-out;
+	-o-transition: all 3s ease-in-out;
+}
+/*Sidebar Menu */
+.kode-sidebar-section{
+	width:220px;
+	background:#333;
+	float:left;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.kode-sidebar-section .admin-sub-menu{
+	margin:0px;
+	padding:0px;
+	border:1px solid #ccc;
+	display:none;
+}
+.kode-content-section.active{
+	display:block;
+}
+.kode-content-section{
+	display:none;
+}
+.kode-sidebar-section .admin-sub-menu.active{
+	display:block;
+}
+.admin-sub-menu-list {
+    background: ghostwhite;
+    color: #333;
+    padding: 16px;
+	margin:0px;
+	border-bottom:1px solid #ccc;
+}
+.kode-admin-content-wrapper{
+	background:#fff;
+	float:left;
+	width:100%;
+	box-sizing:border-box;
+}
+.kode-content-group{
+	float:left;	
+	background:#fff;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	width:80%;
+	text-align:left;
+}
+.kode-option-wrapper {
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+	border-bottom:1px solid #eee;
+	border-left:1px solid #eee;
+    float: left;    
+    width: 100%;
+	clear:both;	
+}
+.kode-option-title{
+	float:left;
+	width:170px;
+	padding:30px;
+}
+.kode-option-input{
+	float:left;
+	width:500px;
+	padding:30px;
+}
+.kode-input-description {
+    clear: both;
+    padding: 10px 30px;
+	color:#888;
+}
+/* Html Structure */
+.admin-menu li[data-class="active"] .menu-title,
+.admin-sub-menu-list.active,
+.sidebar-default-k .sidebar-item{
+	transition: background-color 300ms, color 300ms;
+	-moz-transition: background-color 300ms, color 300ms;
+	-o-transition: background-color 300ms, color 300ms;
+	-webkit-transition: background-color 300ms, color 300ms;
+}
+.sidebar-item{
+	transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+.admin-menu li[data-class="active"] .menu-title{
+	background:#333;
+}
+.admin-sub-menu-list.active{
+	background:#333;
+	color:#fff;
+}
+.kode-upload-img-sample{
+	width:80px;
+	height:80px;
+}

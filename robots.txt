@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-content/uploads/*
+Disallow: /*?*
+
+host: bolgaria-travel.com
+Sitemap: http://bolgaria-travel.com/sitemap_index.xml

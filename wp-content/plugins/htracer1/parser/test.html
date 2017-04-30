@@ -1,0 +1,397 @@
+<html dir="ltr" lang="ru-RU">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta charset="UTF-8" />
+		<title> HTracer - скрипт для автопродвижения сайтов по НЧ и СЧ запросам</title>
+		<link rel="stylesheet" type="text/css" media="all" href="http://htracer.ru/wp-content/themes/twentyten/style.css" />
+		<link rel="pingback" href="http://htracer.ru/xmlrpc.php" />
+		<link rel="alternate" type="application/rss+xml" title="HTracer - скрипт для автопродвижения сайтов по НЧ и СЧ запросам &raquo; Лента" href="http://htracer.ru/feed/" />
+<link rel="alternate" type="application/rss+xml" title="HTracer - скрипт для автопродвижения сайтов по НЧ и СЧ запросам &raquo; Лента комментариев" href="http://htracer.ru/comments/feed/" />
+				
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.0.12 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-10509027-22']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	//]]></script>
+<link rel='stylesheet' id='NextGEN-css'  href='http://htracer.ru/wp-content/plugins/nextgen-gallery/css/nggallery.css?ver=1.0.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='shutter-css'  href='http://htracer.ru/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.css?ver=1.3.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://htracer.ru/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<script type='text/javascript' src='http://htracer.ru/wp-includes/js/prototype.js?ver=1.6.1'></script>
+<script type='text/javascript' src='http://htracer.ru/wp-includes/js/scriptaculous/wp-scriptaculous.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://htracer.ru/wp-includes/js/scriptaculous/effects.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://htracer.ru/wp-content/plugins/wp-lightbox-2/lightbox.js?ver=1.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var shutterSettings = {
+	msgLoading: "L O A D I N G",
+	msgClose: "Click to Close",
+	imageCount: "1"
+};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://htracer.ru/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.js?ver=1.3.0'></script>
+<script type='text/javascript' src='http://htracer.ru/wp-includes/js/jquery/jquery.js?ver=1.4.2'></script>
+<script type='text/javascript' src='http://htracer.ru/wp-content/plugins/nextgen-gallery/js/jquery.cycle.all.min.js?ver=2.88'></script>
+<script type='text/javascript' src='http://htracer.ru/wp-content/plugins/nextgen-gallery/js/ngg.slideshow.min.js?ver=1.05'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://htracer.ru/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://htracer.ru/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='HTracer &#8211; скрипт для автопродвижения сайтов по НЧ и СЧ запросам' href='http://htracer.ru/' />
+<meta name="generator" content="WordPress 3.0.3" />
+<script type='text/javascript' src='http://htracer.ru/wp-includes/js/tw-sack.js?ver=1.6.1'></script>
+        <!-- WP DS FAQ -->
+        <style type='text/css'>
+.dsfaq_qa_block{ border-top: 1px solid #aaaaaa; margin-top: 20px; }
+.dsfaq_ol_quest{ }
+.dsfaq_ol_quest li{ }
+.dsfaq_ol_quest li a{ }
+.dsfaq_quest_title{ font-weight: bold; }
+.dsfaq_quest{ }
+.dsfaq_answer_title{ font-weight: bold; }
+.dsfaq_answer{ border: 1px solid #f0f0f0; padding: 5px 5px 5px 5px; }
+.dsfaq_tools{ text-align: right; font-size: smaller; }
+.dsfaq_copyright{ display: block; text-align: right; font-size: smaller; }
+</style>        <script>
+        //<![CDATA[
+        function dsfaq_open_quest(id){
+            document.getElementById("dsfaq_answer_" + id).innerHTML = '<img src="http://htracer.ru/wp-content/plugins/wp-ds-faq/img/ajax-loader.gif" />';
+            var mysack = new sack("http://htracer.ru/wp-content/plugins/wp-ds-faq/ajax.php" );
+            mysack.execute = 1;
+            mysack.method = 'POST';
+            mysack.setVar( 'action', 'open_quest' );
+            mysack.setVar( 'id', id );
+            mysack.onError = function() { alert('Ajax error. [Error id: 10]' )};
+            mysack.runAJAX();
+            return true;
+        }
+        function dsfaq_close_quest(id){
+            document.getElementById("dsfaq_answer_" + id).innerHTML = '';
+            if(document.getElementById("dsfaq_tools_" + id)){
+                document.getElementById("dsfaq_tools_" + id).innerHTML = '';
+            }
+            
+            return true;
+        }
+                //]]>
+        </script>
+        <!-- END WP DS FAQ -->
+        
+	<!-- begin lightbox scripts -->
+	<script type="text/javascript">
+    //<![CDATA[
+    document.write('<link rel="stylesheet" href="http://htracer.ru/wp-content/plugins/wp-lightbox-2/Themes/Black/lightbox.css" type="text/css" media="screen" />');
+    //]]>
+    </script>
+	<!-- end lightbox scripts -->
+
+<link rel="stylesheet" href="http://htracer.ru/wp-content/plugins/wp-syntax/wp-syntax.css" type="text/css" media="screen" />
+
+<meta name='NextGEN' content='1.7.4' />
+	</head>
+	<body>
+		<div id="outerframe" style="margin:0 auto; width:980px;">
+			<div id="innerframe" 
+				 style="width:850px;
+				       padding-left:  65px;
+					   padding-right: 65px;
+					   							background-attachment:scroll;
+							background-image:url(UpArrow.jpg);
+							background-repeat:no-repeat;
+					   		
+					   ">
+			 	   
+				<div id="logodiv" style="padding-top:20px; padding-bottom:20px;">
+				
+					<table id='header' cellpadding="0" cellspacing="0"  border="0"
+						style="background-image:url(http://htracer.ru/line.PNG); background-repeat:repeat-x; height:72px;">
+						<tr height="72">
+							<td id="logo" valign="bottom"
+																	><img src="http://htracer.ru/HomeLogo.PNG" alt="HTracer" width="206" height="57" />	
+									
+							</td>
+							<td id="faq"  valign="bottom" style="padding-left: 120px;"
+																	><a href="http://htracer.ru/faq/" title="Вопросы и ответы"><img src="http://htracer.ru/FAQ.PNG" alt="FAQ" width="84" height="42"  /></a>
+									
+							</td>
+							<td id="art"  valign="bottom" style="padding-left: 80px;"
+																	><a href="http://htracer.ru/category/articles/" title="Статьи про HTracer"><img src="http://htracer.ru/ART.PNG" alt="Статьи" width="124" height="42"  /></a>
+									
+							</td>	
+							<td id="news" valign="bottom" style="padding-left: 80px;"
+																	><a href="http://htracer.ru/category/news/" title="Обновления HTracer"><img src="http://htracer.ru/NEWS.PNG" alt="Новости" width="152" height="42"  /></a>
+										
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="text" style="padding-bottom:20px; padding-top:10px; color:gray">
+					<p style="font-size:29px; font-family: Times New Roman;">
+						<!--HTracer - скрипт для продвижения сайтов в поисковых системах.-->
+						Благодаря HTracer вы сможете значительно увеличить трафик вашего сайта по низко- и среднечастотным запросам.
+					</p>	
+				</div>
+				<table id='abilities' cellpadding="0" cellspacing="0" width="100%">
+					<tr>	
+						<td rowspan="2">
+							<h2>Возможности <i>HTracer</i></h2>
+							<!--
+							<div class="text" id="maintext">
+								<p>
+									<b>HTracer</b> &mdash; скрипт для автопродвижения сайтов по НЧ и СЧ запросам.
+								</p>
+							</div>
+							-->
+							<ul class="plus">
+								<li>Увеличение трафика в несколько раз</li>
+								<li>Простота установки</li>
+								<!--<li>Высокая эффективность</li>-->
+								<li>Совместимость со всеми CMS</li>
+								<li>Полная автоматизация работы</li>
+								<li>Продвижение только белыми методами</li>
+							</ul>
+						</td>
+						<td valign="top" align="right">
+							<a href="https://passport.webmoney.ru/asp/certView.asp?wmid=957895498405" title="Просмотреть сертификат WebMoney"><img src="Webmoney.PNG" alt="Аттестат WebMoney"/></a>
+						</td>
+					</tr>	
+
+					<tr>
+						<td  valign="bottom" align="right" style="font-family:sans-serif;">
+							<span style='font-size:30pt'>195</span>&nbsp;<span style='font-size:17pt'>WMZ</span>
+							<br />
+							<a href="http://www.oplata.info/asp/pay_wm.asp?id_d=1275086" target="_blank"><img alt="Купить HTracer за 125 WMZ" src="BuyBTN.PNG"></a>
+						</td>
+					</tr>
+				</table>
+				<br /><br />
+				<a style='font-size:24pt' href="http://demo.htracer.ru/HTracer/admin/create_demo_account.php">Онлайн демо</a>
+				<hr class="greenline" />
+				<h2>Как работает <i>HTracer?</i></h2>
+				<div class="text" id="maintext">
+					<p>
+						<b>HTracer</b> &mdash; скрипт для продвижения сайтов по НЧ и СЧ запросам.
+						Он идеально подходит для сайтов, которые имеют больше сотни страниц, и основной трафик на которые идет или может идти по НЧ и СЧ запросам.
+						HTracer &mdash; полностью автоматический скрипт, 
+						его достаточно установить и настроить &mdash; все остальное он сделает самостоятельно.	
+					</p><!---->
+					<br />
+						<img src="shem.jpg" alt="Схема работы HTracer" />
+					<br /><br />
+					<p>
+						Легко видеть, что эти действия не нарушают лицензию поисковых систем: 
+						Alt обязательный атрибут тега IMG, контекcтные ссылки, сематическое облако и титлы ссылок облегчают навигацию по сайту.
+						За год работы на более чем 1000 сайтах, ни на один из них не были наложены санкции поисковых систем.
+					</p>
+					<p>
+						<ul class="plus">
+							<li>Вес страниц<small>Облако и контекстные ссылки перераспределяют вес в пользу основных посадочных страниц.</small></li> 
+							<li>Релевантность контента <small>Благодаря альтам картинок и метакейвордс повышается релевантность контента страницы.</small></li>
+							<li>Ссылочное <small>Титлы ссылок, облако и контекстные ссылки передают внутренее ссылочное.</small></li>
+							<li>Поведенческие факторы <small>Благодаря облаку и контекстным ссылкам увеличивается глубина просмотра сайта пользователями.</small></li>
+						</ul>
+					</p>
+					
+					<!--
+					<p>
+						HTracer не меняет БД сайта, изменения в текст страниц вносятся "на лету". 
+						Скрипт перехватывает HTML-код, который выводит CMS и вносит свои изменения. 
+						Это происходит благодаря встроенной в PHP буферизации вывода. 
+						Другими словами, HTracer совместим со всеми движками и его установка являеться полностью безопасной.
+						Удаления кода установки HTracer сведет все измения, сделанные скриптом, на нет.
+					</p>
+					<p>
+						Благодаря своим фильтрам HTracer автоматически исключает нежелательные запросы, а также способен определить статистические погрешности.
+						Встроенные словарь на более чем 3000 имен собственных 
+						и несколько десятков правил позволяют автоматически поднимать регистр в 80-90% случаев. 
+						Например, "музеи одессы"->"музеи Одессы", "улица редконазванная"->"улица Редконазванная".
+						Все данные, формируемые HTracer, являются читабельными, включая и метакейводс.
+					</p>
+					-->					
+				</div>		
+				<hr class="greenline" />
+				<h2>Результаты <i>работы HTracer</i></h2>
+				<div class="text">
+					<p>
+						Несмотря на полную автоматизацию и использование только белых методов, скрипт позволяет увеличить трафик <b>в 1.5 &mdash; 2 раза</b> уже через <b>2-3 месяца</b>.
+						Прирост трафика максимален для сайтов состоящих более чем из сотни страниц и получающим основной трафик по НЧ и СЧ запросам.
+					</p>
+					<br />
+					<img src="Chart.PNG" alt="График прироста трафика" />
+					<br /><br />
+					<p>
+						На графике виден более чем двукратный рост трафика уже через месяц после установки скрипта.
+						На этом сайте был поставлен чистый экспиримент: создан сайт с несколькими сотнями страниц, после 2ух месяцев трафик на нем перестал расти. Затем через полгода на сайт был установлен HTracer. <a onclick='return hs.expand(this);' href='/wp-content/themes/twentyten/ht_full.png'>См. полный график.</a>
+					</p>
+					<p>
+						Примерно такие результаты наблюдаются на всех сайтах с числом страниц большим 100.
+						<img src="http://fleek.org/wp-content/uploads/css_live.png" alt="График прироста трафика" /><br />
+						Источник: <a href='http://fleek.org/prodvizhenie-na-avtomate/'>fleek.org</a>
+						<br /><br />
+						Установка в ноябре<br />
+						<img src="http://s2.ipicture.ru/uploads/20120213/KST7rJhN.png" alt="График прироста трафика" /><br />
+						Источник: <a href='http://forum.searchengines.ru/showpost.php?p=10038671'>forum.searchengines.ru</a>
+					</p>
+				</div>	
+				<hr class="greenline" />
+				<h2>Отзывы и обзоры <i>покупателей и блоггеров</i></h2>
+				<div class="text quotes">
+					<blockquote>
+						Посещаемость ресурса выросла в 2 раза.<BR />
+						<img src='http://vovka.su/wp-content/uploads/2011/12/stata-htracer-1.jpg' />
+						<a class='signature' href="http://vovka.su/vnutrennyaya-perelinkovka-stranic-sajta-s-htracer/">vovka.su <small style='color:gray'>(3000 подписчиков)</small></a>
+					</blockquote>
+					<blockquote>
+						Конкретно моих тестов – скрипт стоял на русском варезнике около 3х недель. Ставил скрипт специально на слабенький варезник с трафом до 100 уников. За время работы скрипта траф до 150 уников. До этого сайт не двигался больше 100 последние пару месяцев.
+						<br /><i>Примечание: три недели не срок</i>
+						<a class='signature' href="http://uaseo.net/poleznosti/1637">uaseo.net <small style='color:gray'>(6500 подписчиков)</small></a>  
+					</blockquote>
+					<table style='font-size: 16pt;'><tbody><tr>
+						<td valign='top'><nobr>Смотрите также:&nbsp;&nbsp;&nbsp;</nobr></td>
+						<td>
+							<a href='http://www.profithunter.ru/obzory/htracer-uluchshaem-vnutrennyuyu-optimizatsiyu-sayta/'>profithunter.ru</a>,
+							<a href='http://www.ladymaksima.com/eksperiment-htracer/'>ladymaksima.com</a>,
+							<a href='http://bormaley.com/tehnicheskie-priemyi/osobennosti-skripta-dlya-avtoprodvizheniya-resursov-htracer-2.html'>bormaley.com</a>,
+							<a href='http://kirik.com.ua/htracer-skript-perelinkovki-sajtov/'>kirik.com.ua</a>,
+							<a href='http://archil.net/seo/seo-soft/skript-htracer-i-opyat-prodvizhenie-po-nch-i-sch-zaprosam/'>archil.net</a>,
+							<a href="http://fleek.org/prodvizhenie-na-avtomate/">fleek.org</a>,
+							<a href='http://darmoid.ru/seo/testirovanie-htracer-skripta-dlya-avtoprodvizheniya-po-nch-i-sch-zaprosam.html'>darmoid.ru</a>,
+							<a href='http://seorit.ru/story/seo-programmy/htracer-za-vas-prodvinet-sayt-zarabatyvayte-i-otdyhayte'>seorit.ru</a>,
+							<a href='http://stakhov.ru/2012/02/testiruem-htracer-nachalo-izyskanij-po-uvelicheniyu-trafika-za-schet-vnutrennego-ssylochnogo/'>stakhov.ru</a>,
+							<a href='http://www.promo2.ru/?p=1282'>promo2.ru</a>,
+							<a href='http://blogstudenta.ru/htracer-seo.html'>blogstudenta.ru</a>,
+							<a href='http://ctrlc.ru/htracer/'>ctrlc.ru</a>,
+							<a href='http://tods-blog.com.ua/software/seo-soft/htracer/'>tods-blog.com.ua</a>,
+							<a href='http://blog.bloggers.su/seo/bez-pokupki-ssylok/'>blog.bloggers.su</a>,
+							<a href='http://seomoney.org.ua/2012/02/dovodim-sajt-do-uma-s-pomoshhyu-htracer/'>seomoney.org.ua</a>,
+							<a href='http://seohod.ru/vnutrennyaya-optimizaciya/eksperiment-s-htracer.html'>seohod.ru</a>...
+						</td>
+					</tbody></tr></table>	
+					<br /><br />
+
+
+					<blockquote>
+						Автору большое спасибо за скрипт. Ставил на джумлу и на шоповский скрипт. На джумле поставил сразу без каких либо вопросов. А на шопе из-за своей не супер грамотности :-) столкнулся с рядом вопросов. На которые быстро получил ответ от сапорта.<br />
+						Наблюдения после установки. На одном сайте (посещаемом) количество посещений выросло в два раза, никаких больше работ не велось. 
+						<i>Примечание: эти результаты меньше чем через месяц использования</i>
+						<a class='signature' href="http://forum.searchengines.ru/showpost.php?p=8745774">forum.searchengines.ru</a>
+					</blockquote>
+					<blockquote>
+						Покупал Htracer в надежде поднять посещаемость ресурсу хотя бы в 1.5 раза, сейчас потихоньку начинает подниматься посещаемость, советую всем! Суппорт на высоте, скрипт ставится в реале за 5-10 минут. Советую
+						<a class='signature' href="http://forum.searchengines.ru/showpost.php?p=8883339">forum.searchengines.ru</a>
+					</blockquote>
+					<blockquote>
+						Брал скрипт на тест, могу скать, что заявленные функции он очень хорошо выполняет.
+						Без проблем встал на WP, Zebrum, где сразу развернулся в полную силу, так как я импортировал в него по 1500 посещений из Google Analytics.
+						Настройка на этих системах занимает не более 5 минут (включая импорт данных).
+						<a class='signature' href="http://forum.searchengines.ru/showpost.php?p=8589174">forum.searchengines.ru</a>
+					</blockquote>
+				</div>	
+	<script type="text/javascript" src="highslide/highslide-with-gallery.js"></script>
+<script type="text/javascript" src="highslide/highslide.config.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="highslide/highslide.css" />
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" href="highslide/highslide-ie6.css" />
+<![endif]-->
+
+				<hr />
+				<h3 style="font-size:30pt; margin-bottom:0;">HTracer работает с любым PHP движком</h3>
+				<div class="text">
+					<p>
+						Если у вас вознкнут проблемы с установкой, то я <b>бесплатно</b> установлю HTracer на ваш хостинг. <a href='http://htracer.ru/articles/besplatnaya-ustanovka/'>Подробнее...</a>
+					</p>
+					<table style="width:100%; white-space:nowrap;"><tr>
+						<td>
+							<ul class="plus">
+								<li>Неограниченное число сайтов</li>
+								<li>Все обновления бесплатны</li>
+								<li>Открытый исходный код</li>
+								<li>195 WMZ <br /><small style='color:gray'>Цена актуальна до 31 марта</small></li>
+							</ul>
+						</td>
+						<td>&nbsp;</td>
+						<td>	
+							<a href="/scr/cloud.png" onclick='return hs.expand(this, config1);'><img src='/scr/cloud_small.png' style='border:0' /></a>
+							<a href="/scr/sudgests.png" onclick='return hs.expand(this, config1);'><img src='/scr/sudgests_small.png' style='border:0' /></a><br />
+							<a href="/scr/table.png" onclick='return hs.expand(this, config1);'><img src='/scr/table_small.png' style='border:0' /></a>
+							<a href="/scr/filters.png" onclick='return hs.expand(this, config1);'><img src='/scr/filters_small.png' style='border:0' /></a><br />
+							<a href="/scr/table2.png" onclick='return hs.expand(this, config1);'><img src='/scr/table2_small.png' style='border:0' /></a>
+							<a href="/scr/export2.png" onclick='return hs.expand(this, config1);'><img src='/scr/export2_small.png' style='border:0' /></a>
+						</td>
+					</tr></table>	
+					<br />
+					<a href="http://www.oplata.info/asp/pay_wm.asp?id_d=1275086" target="_blank"><img alt="Купить HTracer" src="http://htracer.ru/BuyBTN.PNG" /></a>
+
+					<br />
+					<hr />
+					<h3>Обратная связь</h3>
+					
+					<table style="width:100%; white-space:nowrap;"><tr>
+						<style>
+							#cform, #cform input
+							{
+								font-size: 20px;
+							}
+							#cform #email input, #cform textarea
+							{
+								font-size: 16px;
+								width:250px;
+							}
+							#cform b
+							{
+								display:block;
+							}
+							#cform p
+							{
+								margin-bottom: 10px;
+							}
+						</style>
+												<td id='cform'>
+							<form style='margin:0; padding:0' method='post'>
+								<p id='email'>
+									<b>Ваш Email:</b>
+									<input name='name' value='' style='display:none'/>
+									<input id='pfcif' name='name2' value='' style='display:none'/>
+									
+									<input name='email' />	
+								</p>
+								<p id='mess'>
+									<b>Ваше сообщение:</b>
+									<textarea name='mess'></textarea>
+								</p>
+								<input type='submit' name='cform' onclick='document.getElementById("pfcif").value="code" + 2;' value='Отправить' />
+							</form>				
+						</td>
+						<td>&nbsp;</td>
+						<td>	
+							<table class="rab">
+								<tr><td>WMZ:</td><td><a href="wmk:payto?Purse=Z146746500830&amp;Amount=195&amp;Desc=Покупка+HTracer+УКАЖИТЕ-ЗДЕСЬ-СВОЙ-EMAIL&amp;BringToFront=Y"  title="Купить HTracer за WMZ">Z146746500830</a></td></tr>
+								<tr><td>WMR:</td><td><a href="wmk:payto?Purse=R347509836560&amp;Amount=5850&amp;Desc=Покупка+HTracer+УКАЖИТЕ-ЗДЕСЬ-СВОЙ-EMAIL&amp;BringToFront=Y" title="Купить HTracer за WMR">R347509836560</a></td></tr>
+								<tr><td>Email:</td><td><a href="mailto:a.v.belousoff@gmail.com" title="Написать письмо">a.v.belousoff@gmail.com</a></td></tr>
+								<tr><td>Skype:</td><td><a href="skype:andrey_belousov1?chat" title="Написать по Skype">andrey_belousov1</a></td></tr>
+							</table>
+						</td>
+					</tr></table>	
+				</div>
+				<!--<hr style="margin-bottom:7px" />-->
+			</div>	
+		</div>	
+			<div id='footer'>
+				<div> </div>
+				<center>
+											<span style="margin-left:0;">Главная</span>
+						
+					
+											<a href="http://htracer.ru/faq/" title="Вопросы и ответы">FAQ</a>
+						
+											<a href="http://htracer.ru/category/articles/" title="Статьи про HTracer">Статьи</a>
+					
+											<a href="http://htracer.ru/category/news/" title="Обновления HTracer и прочие новости">Новости</a>
+									</center>
+			</div>	
+	</body>
+</html>

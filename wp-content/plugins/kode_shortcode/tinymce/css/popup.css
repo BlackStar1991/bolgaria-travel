@@ -1,0 +1,783 @@
+/* GLOBAL
+------------------------------------------------------- */
+#kodeforest-popup {
+	width: 850px;
+	font: 12px/20px Arial, Helvetica, sans-serif;
+	height: 500px;
+}
+/*#kodeforest-popup * {
+	font: 12px/20px Arial, Helvetica, sans-serif;	
+}*/
+
+#kodeforest-popup .clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* form side */
+#kodeforest-sc-form-wrap {
+	width: 850px;
+	float: left;
+}
+#kodeforest-sc-form-wrap #kodeforest-sc-form-head {
+	width: 850px;
+	padding: 15px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 1;
+	text-shadow: 0 -1px 0 #000;
+	background-color: #404040;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#404040), to(#393939)); 
+	background-image: -webkit-linear-gradient(top, #404040, #393939); 
+	background-image: -moz-linear-gradient(top, #404040, #393939); 
+	background-image: -ms-linear-gradient(top, #404040, #393939); 
+	background-image: -o-linear-gradient(top, #404040, #393939); 
+	background-image: linear-gradient(top, #404040, #393939);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#404040', EndColorStr='#393939');
+}
+#kodeforest-popup.no_preview #kodeforest-sc-form-wrap #kodeforest-sc-form-head {
+}
+#kodeforest-sc-form-wrap #kodeforest-sc-form {
+	padding-left: 26px;
+	padding-right: 26px;
+	height: 490px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+/* redesigning thickbox */
+
+.kodeforest-shortcodes-popup {
+	border: 0px !important;
+}
+
+.kodeforest-shortcodes-popup #TB_title {
+	background-color: #e7e6e6 !important;
+	color: #3d3d3d !important;
+	height: 50px !important;
+	line-height: 50px !important;
+}
+
+.kodeforest-shortcodes-popup #TB_ajaxWindowTitle {
+	background: url(../images/shortcodes-ui-icon.png) no-repeat center left;
+	padding: 0 !important;
+	margin-left: 25px !important;
+	padding-left: 52px !important;
+	font-size: 18px !important;
+	margin-top:10px;
+}
+
+.kodeforest-shortcodes-popup #TB_closeWindowButton {
+	text-decoration: none;
+	color: #3d3d3d !important;
+}
+
+.kodeforest-shortcodes-popup .tb-close-icon {
+	background: none !important;
+	text-decoration: none;
+}
+
+.kodeforest-shortcodes-popup .tb-close-icon:before { display: none; }
+.kodeforest-shortcodes-popup .tb-close-icon:after {
+	font-family: 'FontAwesome';
+	content: '\f00d';
+	font-size: 14px;
+	color: #3d3d3d !important;
+	text-decoration: none;
+	position: relative;
+	top: 9px;
+	left: -10px;
+}
+
+.kodeforest-shortcode-selector {
+	background: #f8f6f6;
+	border-bottom: 1px solid #e3e2e1;
+	padding-left: 26px; padding-right: 26px; padding-top: 25px; padding-bottom: 24px;
+}
+
+.kodeforest-shortcode-selector .label {
+	width: 310px !important;
+	font-size: 15px !important;
+	color: #3d3d3d !important;
+}
+
+.kodeforest-shortcode-selector .form-row {
+	padding-top: 0 !important; padding-bottom: 0px !important;
+}
+
+/* FORM
+------------------------------------------------------- */
+
+#kodeforest-sc-form-table {
+	width: 100%;
+}
+#kodeforest-sc-form-table tbody tr.form-row {
+	display: block;
+	padding: 16px 0px 20px 0;
+	border-bottom: solid 1px #eaeaea;
+}
+#kodeforest-sc-form-table tbody:last-child tr.form-row {
+	border-bottom: none;
+}
+#kodeforest-sc-form-table tbody tr.form-row .label {
+	width: 316px;
+	text-align: left;
+	vertical-align: top;
+	line-height: 35px;
+	padding-left: 0 !important; padding-right: 20px;
+	font-size: 15px !important;
+	color: #3d3d3d !important;
+}
+#kodeforest-sc-form-table tbody tr.form-row .label .kodeforest-form-label-title {
+	font-size: 15px !important;
+	color: #3d3d3d !important;	
+}
+#kodeforest-sc-form-table tbody tr.form-row .field {
+	width: 443px;
+	padding-left: 0px; padding-right: 0px;
+}
+#kodeforest-sc-form-table tbody tr.form-row .kodeforest-insert {
+	display: block;
+	color: #fff;
+	height: 36px;
+	width: 136px;
+	background: #2991c0;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 36px;
+	text-decoration: none;
+	border: 0;
+	text-align: center;
+}
+#kodeforest-sc-form-table tbody tr.form-row .kodeforest-insert:hover {
+	background: #333333;
+}
+
+/* child rows, sortable */
+#kodeforest-sc-form-table .form-row.has-child {
+	width: 779px;
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+#kodeforest-sc-form-table .has-child #form-child-add {
+	display: block;
+	width: 779px;
+	padding: 0;
+	height: 49px;
+	line-height: 49px;
+	font-size: 21px;
+	text-align: center;
+	padding: 0 !important;
+	border: 1px solid #dadada;
+	text-decoration: none;
+	margin-top: 20px;
+}
+#kodeforest-sc-form-table .has-child .child-clone-rows {
+	display: block;
+}
+#kodeforest-sc-form-table .has-child .child-clone-rows .child-clone-row {
+	padding: 8px 18px 8px 18px;
+	background: #f8f6f6;
+	border: solid 1px #d6d6d6;
+	margin-bottom: 10px;
+	cursor: move;
+}
+#kodeforest-sc-form-table .has-child .sortable-placeholder {
+	border: dashed 2px #e0e0e0;
+	margin-bottom: 10px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #f7f7f7;
+	height: 40px;
+}
+#kodeforest-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-form {
+	display: block;
+}
+#kodeforest-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-form .uploaded-image {
+	display: none;
+	max-width: 311px;
+	margin-right: 10px;
+}
+#kodeforest-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-form .child-clone-row-form-row {
+	display: block;
+	padding: 18px 0;
+	border-bottom: solid 1px #ddd;
+}
+#kodeforest-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-form .child-clone-row-form-row .child-clone-row-label-desc {
+	float: left;
+	width: 296px;
+	margin-right: 20px;
+}
+#kodeforest-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-form .child-clone-row-form-row .child-clone-row-field {
+	float: left;
+	width: 427px !important;
+}
+#kodeforest-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-form .child-clone-row-form-row .child-clone-row-label label {
+	display: block;
+	padding-bottom: 7px;
+	line-height: 1;
+	font-size: 14px;
+	color: #3d3d3d;
+}
+#kodeforest-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-remove {
+	width: 95px;
+}
+
+/* form elements */
+
+/* - all */
+#kodeforest-sc-form-table tbody tr.form-row .kodeforest-form-text,
+#kodeforest-sc-form-table tbody tr.form-row .kodeforest-form-textarea,
+#kodeforest-sc-form-table tbody tr.form-row .kodeforest-form-select {
+	width: 443px;
+	background: #ffffff;
+	border: 1px solid #d9d9d9;
+	color: #333333;
+	padding: 6px 15px;
+	text-indent: 0.01px;
+	height: auto;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius:  0;
+}
+
+#kodeforest-sc-form-table tbody tr.form-row .chosen-container-multi .chosen-choices {
+	background: #ffffff;
+	border: 1px solid #d9d9d9;
+	color: #333333 !important;
+	font-size: 13px !important;
+	padding: 3px 5px;
+}
+
+#kodeforest-sc-form-table tbody tr.form-row.has-child .kodeforest-form-text,
+#kodeforest-sc-form-table tbody tr.form-row.has-child .kodeforest-form-textarea,
+#kodeforest-sc-form-table tbody tr.form-row.has-child .kodeforest-form-select {
+	background: #fff;
+	width: 427px;
+}
+
+/* - textarea */
+#kodeforest-sc-form-table tbody tr.form-row .kodeforest-form-textarea {
+	height: 120px;
+}
+#kodeforest-sc-form-table tbody tr.form-row.has-child .kodeforest-form-textarea {
+	height: 100px;
+}
+
+/* - select */
+#kodeforest-sc-form-table tbody tr.form-row .kodeforest-form-select {
+	display: block;
+	height: 34px !important;
+	line-height: normal !important;
+	padding-top: 8px !important; padding-bottom: 7px !important;
+}
+#kodeforest-sc-form-table tbody tr.form-row.has-child .kodeforest-form-select {
+	width: 427px;
+	height: auto;
+}
+
+#kodeforest-sc-form-table tbody tr.form-row .kodeforest-form-select-field {
+	position: relative;
+}
+
+#kodeforest-sc-form-table tbody tr.form-row .kodeforest-shortcodes-arrow {
+	background: #fff;
+	width: 35px;
+	height: 32px;
+	border-left: 1px solid #d9d9d9;
+	position: absolute; top: 1px; right: 1px;
+	pointer-events: none;
+	z-index: 10;
+	font-family: 'FontAwesome';
+	text-align: center;
+	line-height: 32px;
+}
+#kodeforest-sc-form-table tbody tr.form-row .kodeforest-form-select {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	background: #ffffff;
+	border: 1px solid #d9d9d9;
+	box-sizing: border-box;
+	-webkit-box-sizing: none;
+	-moz-box-sizing: none;
+	-o-box-sizing: none;
+	color: #333333;
+	cursor: pointer;
+	display: block;
+	font-size: 13px;
+	outline: none;
+	height: auto;
+	overflow: ellipsis;
+	padding: 6px 15px;
+	position: relative;
+	text-indent: 0.01px;
+	text-overflow: '';
+	-webkit-text-overflow: none;
+	-moz-text-overflow: none;
+	-o-text-overflow: none;
+	vertical-align: middle;
+	z-index: 5;
+	margin: 0;
+}
+
+/* - multiple select */
+#kodeforest-sc-form-table tbody tr.form-row .kodeforest-form-multiple-select {
+	display: block;
+	height: auto;
+}
+#kodeforest-sc-form-table tbody tr.form-row.has-child .kodeforest-form-multiple-select {
+	width: auto;
+	height: auto;
+}
+
+/* - uploader */
+#kodeforest-sc-form-table tbody tr.form-row .kodeforest-upload-container {
+	position: relative;
+	min-height: 36px;
+}
+
+#kodeforest-sc-form-table tbody tr.form-row .kodeforest-upload-button {
+	display: inline-block;
+	height: 34px;
+	line-height: 34px;
+	margin: 0;
+	font-size: 13px;
+	color: #333333;
+	background: #fff;
+	border: 1px solid #c7c5c5;
+	width: 95px;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	bottom: 0; right: 0;
+}
+#kodeforest-sc-form-table tbody tr.form-row .kodeforest-upload-button:hover {
+	background: #fbf9f9;
+}
+#kodeforest-sc-form-table tbody tr.form-row .uploaded-image {
+	display: none;
+	max-width: 311px;
+	margin-right: 10px;
+}
+
+/* - color picker */
+#kodeforest-sc-form-table tbody tr.form-row .wp-color-result {
+	float: left;
+	height: 34px;
+	border-radius: 0;
+	border: 1px solid #d6d6d6;
+	padding-left: 234px;
+	margin: 0;
+}
+
+#kodeforest-sc-form-table tbody tr.form-row .wp-color-result:after {
+	height: 34px;
+	line-height: 34px;
+	background: none;
+	background: #fff;
+	width: 106px;
+	padding: 0;
+	text-align: center;
+	color: #333333;
+	font-size: 13px;
+}
+
+#kodeforest-sc-form-table tbody tr.form-row .wp-picker-input-wrap {
+	float: left;
+}
+
+#kodeforest-sc-form-table tbody tr.form-row .wp-color-picker-field {
+	width: 90px !important;
+	margin: 0 0 0 7px;
+	height: 36px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	display: block !important;
+}
+
+#kodeforest-sc-form-table tbody tr.form-row .child-clone-row .wp-color-picker-field {
+	width: 75px !important;
+}
+
+#kodeforest-sc-form-table tbody tr.form-row .wp-picker-clear {
+	display: none;
+}
+
+#kodeforest-sc-form-table tbody tr.form-row  .wp-picker-holder {
+	clear: both;
+	margin: 0;
+	padding-top: 10px;
+}
+
+/* - icon picker */
+#kodeforest-sc-form-table .iconpicker {
+	background: #fff;
+	height: 250px;
+	overflow-y: scroll;
+	border: 1px solid #AAA;
+	cursor: pointer;
+}
+#kodeforest-sc-form-table tbody tr.form-row [class^="icon-"],
+#kodeforest-sc-form-table tbody tr.form-row [class*=" icon-"] {
+	background: #fff;
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+	font-size: 14px;
+	line-height: 32px;
+	text-align: center;
+	cursor: pointer;
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	color: #494949;
+	border: 1px solid #e1e1e1;
+	margin-left: -1px;
+	margin-top: -1px;
+	transition: 		all 0.1s ease-out;
+	-moz-transition: 	all 0.1s ease-out; /* Firefox 4 */
+	-webkit-transition: all 0.1s ease-out; /* Safari and Chrome */
+	-o-transition: 		all 0.1s ease-out; /* Opera */
+}
+
+#kodeforest-sc-form-table tbody tr.form-row [class^="icon-"]:hover,
+#kodeforest-sc-form-table tbody tr.form-row [class*=" icon-"]:hover {
+	background-color: #eeeded;
+	-webkit-transform:scale(1.3);
+	-o-transform:scale(1.3);
+	-moz-transform:scale(1.3);
+	transform:scale(1.3);
+}
+
+#kodeforest-sc-form-table tbody tr.form-row [class^="icon-"].active,
+#kodeforest-sc-form-table tbody tr.form-row [class*=" icon-"].active {
+	background-color: #eeeded;
+}
+
+/* - sizes */
+
+#kodeforest-sc-form-table tbody tr.form-row .kodeforest-form-group {
+	width: 203px;
+	float: left;
+	margin-right: 20px;
+}
+
+#kodeforest-sc-form-table tbody tr.form-row .kodeforest-form-group.last {
+	margin-right: 0;
+}
+
+#kodeforest-sc-form-table tbody tr.form-row .kodeforest-form-group label {
+	display: block;
+	width: 100%;
+	font-size: 14px;
+	font-style: italic;
+	color: #939292;
+}
+
+#kodeforest-sc-form-table tbody tr.form-row .kodeforest-form-group input {
+	width: 100% !important;
+}
+
+/* - desc */
+#kodeforest-sc-form-table tbody tr.form-row .label .kodeforest-form-desc,
+#kodeforest-sc-form-table tbody tr.form-row .child-clone-row-desc {
+	display: block;
+	font-size: 14px;
+	color: #939292;
+	font-style: italic;
+	line-height: 21px;
+}
+
+#kodeforest-sc-form-table tbody tr.form-row .label .kodeforest-form-desc {
+	line-height: 21px;
+	margin-top: -5px;
+}
+
+/* - chosen fixes */
+#kodeforest-popup .chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+	line-height: normal !important;
+}
+
+#kodeforest-popup .chosen-container-multi .chosen-choices li.search-choice,
+#kodeforest-popup .chosen-container-multi .chosen-choices li.search-choice * {
+	line-height: 13px !important;
+}
+
+#kodeforest-popup .chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+	height: auto !important;
+}
+
+/* button */
+
+#kodeforest-sc-form-table .kodeforest-shortcodes-button {
+	display: inline-block;
+	height: 34px;
+	line-height: 34px;
+	margin: 0;
+	font-size: 13px;
+	color: #333333;
+	background: #fff;
+	border: 1px solid #c7c5c5;
+	text-align: center;
+	text-decoration: none;
+}
+#kodeforest-sc-form-table .kodeforest-shortcodes-button:hover {
+	background: #fbf9f9;	
+}
+#kodeforest-sc-form-table .child-clone-row-desc .kodeforest-shortcodes-button {
+	width: 175px;
+	margin-top: 10px;
+	display: block;
+}
+
+#kodeforest-sc-form-table .kodeforest-gallery-button {
+	padding-left: 10px; padding-right: 10px;
+}
+
+/* Changing shortcodes layout design */
+
+#content_kodeforest_button { outline: none; }
+
+#menu_content_content_kodeforest_button_menu {
+	left: 50% !important;
+	margin-left: -303px !important;
+	min-height: 450px;
+	height: auto !important;
+}
+
+#menu_content_content_kodeforest_button_menu {
+	z-index:1 !important;
+	width:471px !important;
+}
+
+#menu_content_content_kodeforest_button_menu tbody {
+	width: 471px;
+	display: block;
+}
+
+#menu_content_content_kodeforest_button_menu_co,
+#menu_content_content_kodeforest_button_menu_tbl {
+	width:471px !important;
+}
+
+#menu_content_content_kodeforest_button_menu .mceMenuItem {
+	width: 157px;
+	float: left;
+	display: block;
+}
+
+#menu_content_content_kodeforest_button_menu .mceMenuItem a {
+	width:157px;
+	height:30px;
+	line-height:30px;
+	padding:0;
+	display:inline-block;
+	float:left;
+}
+
+#menu_content_content_kodeforest_button_menu .mceMenuItemDisabled {
+	width:100%;
+	display:block;
+	float:none;
+}
+
+#menu_content_content_kodeforest_button_menu .mceMenuItemDisabled a{
+	width:471px;
+}
+
+#menu_content_content_kodeforest_button_menu .mceMenuItemDisabled .mceText{
+	padding:0;
+	padding-left:10px;
+}
+
+#menu_content_content_kodeforest_button_menu .mceText{
+	padding-left:48px;
+}
+
+#menu_content_content_kodeforest_button_menu .mceIcon{
+	background-image:none;
+	background-position:center center;
+	background-repeat:no-repeat;
+	width:50px;
+	height:30px;
+}
+
+.mce_kodeforest_youtube{
+	background-image:url(../images/youtube.png) !important;
+}
+
+.mce_kodeforest_vimeo{
+	background-image:url(../images/vimeo.png) !important;
+}
+
+.mce_kodeforest_soundcloud{
+	background-image:url(../images/soundcloud.png) !important;
+}
+
+.mce_tkodeforest_button{
+	background-image:url(../images/button.png) !important;
+}
+
+.mce_kodeforest_dropcap{
+	background-image:url(../images/dropcap.png) !important;
+}
+
+.mce_kodeforest_highlight{
+	background-image:url(../images/highlight.png) !important;
+}
+
+.mce_kodeforest_checklist{
+	background-image:url(../images/checklist.png) !important;
+}
+
+.mce_kodeforest_tabs{
+	background-image:url(../images/tabs.png) !important;
+}
+
+.mce_kodeforest_toggle{
+	background-image:url(../images/toggles.png) !important;
+}
+
+.mce_kodeforest_half{
+	background-image:url(../images/half.png) !important;
+}
+
+.mce_kodeforest_third{
+	background-image:url(../images/one_third.png) !important;
+}
+
+.mce_kodeforest_two_third{
+	background-image:url(../images/two_third.png) !important;
+}
+
+.mce_kodeforest_fourth{
+	background-image:url(../images/one_fourth.png) !important;
+}
+
+.mce_kodeforest_three_fourth{
+	background-image:url(../images/three_fourth.png) !important;
+}
+
+.mce_kodeforest_slider{
+	background-image:url(../images/slider.png) !important;
+}
+
+.mce_kodeforest_testimonial{
+	background-image:url(../images/testimonials.png) !important;
+}
+
+.mce_kodeforest_social_links{
+	background-image:url(../images/social_links.png) !important;
+}
+
+.mce_kodeforest_client_slider{
+	background-image:url(../images/clients_slider.png) !important;
+}
+
+.mce_kodeforest_title{
+	background-image:url(../images/title.png) !important;
+}
+
+.mce_kodeforest_separator{
+	background-image:url(../images/spacer.png) !important;
+}
+
+.mce_kodeforest_lightbox{
+	background-image:url(../images/lightbox.png) !important;
+}
+
+.mce_kodeforest_menuanchor{
+	background-image:url(../images/menuanchor.png) !important;
+}
+
+.mce_kodeforest_progress_bar{
+	background-image:url(../images/progress_bar.png) !important;
+}
+
+.mce_kodeforest_person{
+	background-image:url(../images/person.png) !important;
+}
+
+.mce_kodeforest_alert{
+	background-image:url(../images/alert.png) !important;
+}
+
+.mce_kodeforest_pricing_table{
+	background-image:url(../images/pricing.png) !important;
+}
+
+.mce_kodeforest_recent_works{
+	background-image:url(../images/recent_works.png) !important;
+}
+
+.mce_kodeforest_tagline{
+	background-image:url(../images/tagline.png) !important;
+}
+
+.mce_kodeforest_content_boxes{
+	background-image:url(../images/content_boxes.png) !important;
+}
+
+.mce_kodeforest_recent_posts{
+	background-image:url(../images/recent_news.png) !important;
+}
+
+.mce_kodeforest_fontawesome{
+	background-image:url(../images/fontawesome.png) !important;
+}
+
+.mce_kodeforest_tooltip{
+	background-image:url(../images/tooltip.png) !important;
+}
+
+.mce_kodeforest_full{
+	background-image:url(../images/fullwidth.png) !important;
+}
+
+.mce_kodeforest_map{
+	background-image:url(../images/googlemap.png) !important;
+}
+
+.mce_kodeforest_counters_circle{
+	background-image:url(../images/countercircle.png) !important;
+}
+
+.mce_kodeforest_counters_box{
+	background-image:url(../images/counterbox.png) !important;
+}
+
+.mce_kodeforest_flexslider{
+	background-image:url(../images/flexslider.png) !important;
+}
+
+.mce_kodeforest_blog{
+	background-image:url(../images/blog.png) !important;
+}
+
+.mce_kodeforest_img_frames{
+	background-image:url(../images/imageframes.png) !important;
+}
+
+.mce_kodeforest_img_carousel{
+	background-image:url(../images/imagecarousel.png) !important;
+}
+
+.mce_kodeforest_sharing_box{
+	background-image:url(../images/socialshare.png) !important;
+}
+
+.mce_kodeforest_table{
+	background-image:url(../images/table.png) !important;
+}
+
+.mce_kodeforest_woo{
+	background-image:url(../images/woo_icon.png) !important;
+}
+
+/* IE8, IE9 */
+#kodeforest-sc-form-table tbody tr.form-row .kodeforest-shortcodes-arrow {display: none\0/;} /* must go at the END of all rules */

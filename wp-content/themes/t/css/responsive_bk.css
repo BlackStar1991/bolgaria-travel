@@ -1,0 +1,118 @@
+/*============  Media 768Px Start ============ */ 
+@media (min-width: 768px) and (max-width: 990px) {
+    /* Header */
+    header .kd-social-network,.kd-userinfo > li:first-child { display: none; }
+    .navbar-nav > li { padding: 5px 9px; }
+    .kd-search { padding: 50px 0 0px 25px; }
+	.dl-menuwrapper{margin-top:40px;}
+	.kd-booking-list{float:left;width:100%;}
+	.theme-margin{float:none;}
+	#copyright .footer-nav{float:none;display:inline-block;}
+	.kd-partner{float:none;display:inline-block;text-align:center;}
+    .sub-dropdown .sub-dropdown { left: auto; right: 85%; }
+    .kd-medium article figure { width: 100%; }
+    .kd-medium article figure ~ .kd-teaminfo { float: left; width: 100%; padding: 15px 0px 0px 0px; }
+	.dl-menuwrapper{display:block;}
+	.kode-navigation-wrapper{display:none;}
+    /* Content */
+    .kd-bookingtab .nav-tabs > li > a { padding: 12px 32px; }
+    .kd-subscribe form p input[type="text"] { width: 100%; }
+    /* Footer */
+    #copyright { text-align: center; }
+    #copyright p { margin-bottom: 15px; }
+	.body-wrapper{width:100% !important;margin:0px !important;}
+}
+
+/*============ Media 420Px Start ============ */
+@media (max-width: 767px) {
+    /* Main Grid */
+    .col-md-4,.col-md-3,.col-md-6 { width: 50%; }
+    .col-md-2 { width: 25%; }
+	#copyright .footer-nav ul li{display:inline-block;float:none;text-align:center;}
+	.team-medium.kode-team article .kd-teaminfo{padding:0px;}
+	.team-medium.kode-team article figure{width:100%;}
+    /* Header */
+    .kd-topinfo,.kd-caption { display: none; }
+    #mainheader { text-align: center; }
+    #mainheader [col-md-] { width: 100%; }
+    .navbar-header { display: inline-block; margin: 32px 0 0; }
+    .navbar-collapse { background: #fff; position: absolute; right: 0; text-align: left; top: 100%; width: 280px; }
+    .navbar-nav > li { padding: 10px 14px; }
+    .sub-dropdown { margin: 15px 0px; position: static; opacity: 1; visibility: visible; float: left; width: 100%; -webkit-transform: translateY(0px); -moz-transform: translateY(0px); -ms-transform: translateY(0px); -o-transform: translateY(0px); transform: translateY(0px); }
+    .kf_sticky { position: static; }
+
+    /* Content */
+    .kd-blogmedium figure,.kd-tourform ul li,.kd-services figure,.kd-subscribe form p input[type="text"] { width: 100%; }
+    .kd-blogmedium figure ~ .kd-bloginfo,.kd-services figure ~ .kd-serviceinfo { float: left; width: 100%; padding: 15px 0px 0px 0px; }
+    .kd-tourform { position: static; float: left; width: 100%; } .kd-tourform ul li { margin-bottom: 20px; } .kd-tourform form { padding-top: 0px; }
+    .kd-subscribe form p { padding-bottom: 10px; }
+    .kd-followus-widget ul li { width: 25%; }
+    .kd-loginbox .modal-dialog { width: 440px; }
+    body { overflow-x: hidden; }
+    .kd-blog-detail .kd-rich-editor { float: left; width: 100%; padding: 0px; }
+    #kdcomments ul li figure ~ .text { float: left; width: 100%; margin: 9px 0px 0px 0px; }
+    #kdcomments ul li .text::before, #kdcomments ul li .text::after { left: 20px; top: -14px; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); -o-transform: rotate(90deg); transform: rotate(90deg); }
+    #kdcomments ul li .text::after { left: 20px; top: -15px; }
+    #kdcomments ul li .text .replay-btn { position: static; float: left; }
+    .kd-tag { margin-bottom: 15px; float: left; } .kd-tag span { margin-bottom: 10px; }
+    .kd-404 h1 { font-size: 100px; line-height: 100px; }
+    .kd-medium article figure { width: 100%; }
+    .kd-medium article figure ~ .kd-teaminfo { float: left; width: 100%; padding: 15px 0px 0px 0px; }
+    .kd-subscribe form p { width: 100%; padding: 0px 0px 10px 0px; }
+    .kd-partner ul li { text-align: center; }
+    .kd-partner ul li a { display: inline-block; }
+.dl-menuwrapper{display:block;}
+	.kode-navigation-wrapper{display:none;}
+    /* Footer */
+    #copyright { text-align: center; }
+    #copyright .footer-nav { float: none; display: inline-block; }
+    #copyright p { margin-bottom: 15px; }
+	.body-wrapper{width:100% !important;margin:0px !important;}
+}
+
+/*============ Media 300Px Star ============ */
+@media (max-width: 480px) {
+    /* Main Grid */
+    .col-md-4,.col-md-3,.col-md-2,.col-md-6 { width: 100%; }
+	.kf_sticky{position:relative;}
+	.kf_sticky .navbar-nav > li{padding:10px 14px;}
+    /* Header */
+    .kd-userinfo { float:none;text-align: center; }
+    .kd-userinfo > li:first-child { width: 100%; padding: 0px;margin-top:15px; }
+	.dl-menuwrapper{float:right;margin-left: 21px;margin-top: 20px;}
+	.kd-search{display:none;}
+	.kd-headbar{padding:20px 0px;}
+    .kd-userinfo > li .kd-social-network { float: none; display: inline-block; }
+    .kd-userinfo > li { border: none; float: none; display: inline-block; padding: 0px 10px 10px 10px; }
+    .logo {padding: 0px; }
+    .navbar-collapse { right: auto; left: -100%; width: 240px; }
+    .kd-loginbox .modal-dialog { width: 300px; }
+    .kd-login-network ul li a { font-size: 12px; padding: 8px; }
+    .col-md-12 { padding-right: 20px; }
+	.dl-menuwrapper{display:block;}
+	.kode-navigation-wrapper{display:none;}
+	.kode-item.kode-blog-medium{float:left;}
+	.kd-bookingtab .nav-tabs > li > a{padding:12px 29px;}
+	.kode-blog-medium .bloginner{padding:15px;}
+	.kode-blog-medium figure{width:auto;}
+	#copyright .footer-nav ul li{padding:0px 10px;}
+	.kode-services.type-2 figure a img,
+	.kode-blog-medium figure a img,
+	.kode-services figure{width:100%;}
+	.kode-blog-medium figure ~ .kd-bloginfo,
+	.kode-services.type-2 figure ~ .kode-service-info{padding:0px;}
+	.kode-package-list figure,
+	.kode-services.type-2{margin-bottom:30px;}
+	.body-wrapper{width:100% !important;margin:0px !important;}
+}
+
+/*============  Media 940Px Start ============ */
+@media screen and (min-width: 991px) and (max-width: 1054px) {
+    /* Header */
+    .navbar-nav > li { padding: 48px 6px 40px; }
+    .kd-userinfo > li { padding: 11px 16px; }
+    .sub-dropdown .sub-dropdown { left: auto; right: 85%; }
+    /* Content */
+    .kd-subscribe form p input[type="text"] { width: 340px; }
+	.body-wrapper{width:100% !important;margin:0px !important;}
+}
